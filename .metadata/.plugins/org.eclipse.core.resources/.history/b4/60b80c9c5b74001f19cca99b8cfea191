@@ -1,0 +1,12 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+public class Q5_Sum_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

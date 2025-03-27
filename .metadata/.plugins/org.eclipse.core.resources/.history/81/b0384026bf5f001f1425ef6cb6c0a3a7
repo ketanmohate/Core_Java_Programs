@@ -1,0 +1,51 @@
+package Assignment_21_08_2024.java;
+
+/*
+ Q5. WAP to Create class name as FindPrimeBetween 
+void setValue(int limit): this function can accept number as parameter
+void findPrimes(): this function can prime numbers between 1 to limit.
+ */
+
+import java.util.*;
+
+class FindPrimeBetween
+{
+	int n;
+	
+	void setValue(int limit)
+	{
+		n = limit;
+	}
+	
+	void findPrimes()
+	{
+		int count=0;
+		
+		System.out.println("Prime Numbers");
+		
+		for(int i = 1 ; i <= n ; i++)
+		{
+			for(int j = 1 ; j <= i ; j++)
+			{
+				if(j%i == 0)
+				{
+					count++;
+				}
+			}
+			if(count == 2)
+			{
+				System.out.println(i);
+			}
+		}
+	}
+}
+
+public class Q5_Find_Prime_Bet_N 
+{
+	public static void main(String[] args) 
+	{	
+		
+
+	}
+
+}

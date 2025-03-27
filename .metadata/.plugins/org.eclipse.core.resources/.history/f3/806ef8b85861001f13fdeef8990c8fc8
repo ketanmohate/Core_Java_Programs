@@ -1,0 +1,63 @@
+package Loopng_PDF;
+
+/* 19. Write a C program to enter a number and print it in words.*/
+
+import java.util.*;
+
+public class Q19_Number_And_Print_It_In_Words 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		int num = sc.nextInt();
+		
+		// main logic
+		
+		int temp = num;
+		int rem=0;
+		int rev=0;
+		// reveres number
+		for(;temp!=0;)
+		{
+			rem = temp % 10;
+			rev = (rev * 10)+rem;
+			temp = temp/10;
+		}
+		//print Words
+		temp=num;
+		int rem1=0;
+		for(;temp!=0;)
+		{
+			rem1 = temp%10;
+			
+			switch(rem1)
+			{
+			case 0:
+				System.out.println("Zero");
+				break;
+			
+			case 1:
+				System.out.println("First");
+				break;
+				
+			case 2:
+				System.out.println("Tow");
+				break;
+				
+			case 3:
+				System.out.println("Three");
+				break;
+				
+			case 4:
+				System.out.println("Fore");
+				break;
+			}
+			temp=temp/10;
+		}
+		
+	}
+	
+
+}

@@ -1,0 +1,27 @@
+package com.java;
+/* 2. Write a Java program to print all natural numbers in reverse (from n to 1).*/
+	
+import java.util.*;
+	
+public class AllNaturalNumbersInReverse
+{
+	public static void main(String args[])
+	{
+		int num;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the number:");
+		num = scan.nextInt();
+		
+		int i = 1;		
+
+		System.out.println("Natural number in reverse");
+
+		while(i < num) 
+		{
+			System.out.println(num);
+			num--;
+		}
+		
+	}
+}

@@ -1,0 +1,30 @@
+package Loopng_PDF;
+
+/* 36. Write a C program to print Fibonacci series up to n terms. */
+
+import java.util.*;
+
+public class Q36_Print_Fibonacci_Series 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the value of N(Limit):");
+		int n = sc.nextInt();
+		
+		// main logic
+		int a=0;
+		int b=1;
+		int c=0;
+		
+		for(int i=1 ; i<=n ;i++)
+		{
+			System.out.println(c);
+			a=b;
+			b=c;
+			c=a+b;
+		}
+	}
+
+}

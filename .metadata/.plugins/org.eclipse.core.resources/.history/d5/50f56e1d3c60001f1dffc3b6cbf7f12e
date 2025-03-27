@@ -1,0 +1,14 @@
+package Loopng_PDF;
+
+/* 16. Write a C program to enter a number and print its reverse. */
+
+import java.util.*;
+
+public class Q16_Print_Number_Reverse 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+package com.java;
+/* 1. Write a Java program to print all natural numbers from 1 to n.*/
+	
+import java.util.*;
+		
+public class AllNaturalNumber
+{
+	public static void main(String args[])
+	{
+		int num;	
+		
+		Scanner scan = new Scanner(System.in);	
+
+		System.out.println("Enter the number:");
+		num = scan.nextInt();
+		
+		int i = 1;
+
+		System.out.println("Natural Number:");
+
+		while(num >= i)
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+}

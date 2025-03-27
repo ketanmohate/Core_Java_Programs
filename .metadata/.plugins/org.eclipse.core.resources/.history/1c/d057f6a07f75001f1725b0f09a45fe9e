@@ -1,0 +1,34 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Majority
+{
+	int arr[];
+	
+	public Majority(int arr[])
+	{
+		this.arr=arr;
+	}
+	
+	public int getMajority()
+	{
+		int result=0;
+		return result;
+	}
+}
+
+public class Q3_Majority_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the size of Array");
+		int size=sc.nextInt();
+		
+		int arr[] = new int[size];
+		
+	}
+
+}

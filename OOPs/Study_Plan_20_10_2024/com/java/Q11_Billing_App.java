@@ -1,0 +1,140 @@
+package com.java;
+/*
+ 11).WAP to create the class name as Product with a following properties  
+class Product 
+{  private int id; 
+private String name; 
+private int qty; 
+private int rate; 
+public void setId(int id) 
+{ this.id=id; 
+} 
+public int getId() 
+{ return id; 
+} 
+public void setName(String name) 
+{ this.name=name; 
+} 
+public String getName() 
+{ return name; 
+} 
+//write the setter getter 
+// for qty and rate 
+} 
+Create the another class name as CalculateBill and this class is depend on product but we want to 
+pass more than one product details to CalculateBill class so here we use the var-args concept. 
+So your class look like as  
+Then we need to write the class with a main method look like as  
+
+ */
+
+import java.util.*;
+
+class Product
+{
+	private int id; 
+	private String name; 
+	private int qty; 
+	private int rate;
+	
+	public void setId(int id)
+	{
+		this.id=id;
+	}
+	public int getId()
+	{
+		return id;
+	}
+	
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	
+	public void setQTY(int qty)
+	{
+		this.qty=qty;
+	}
+	public int getQTY()
+	{
+		return qty;
+	}
+	
+	public void setRate(int rate)
+	{
+		this.rate=rate;
+	}
+	public int getRate()
+	{
+		return rate;
+	}
+}
+
+class CalculateBill
+{
+	int totalBill=0;
+	int totalBillOfOrder=0;
+	
+	void callBill(Product...arrProduct)
+	{
+		System.out.println("======================================================================================================");
+		System.out.println("Product\t\t"+"ProdictName\t\t"+"Qty\t\t"+"Rate\t\t"+"TotalBill\t\t");
+		System.out.println("======================================================================================================");
+		for(int i=0;i<arrProduct.length;i++)
+		{
+			totalBill=arrProduct[i].getQTY() * arrProduct[i].getRate();
+			totalBillOfOrder = totalBillOfOrder + totalBill;
+			System.out.println(arrProduct[i].getId() + "\t\t" + arrProduct[i].getName() + "\t\t" + arrProduct[i].getQTY() + "\t\t" + arrProduct[i].getRate() + "\t\t" + totalBill);
+		}
+		
+//		System.out.println("");
+		System.out.println("\t\t\t\t\t\t\t\t\t---------------------------");
+		System.out.println("\t\t\t\t\t\t\t\t\tTotal Bill Of Order: " + totalBillOfOrder);
+	}
+}
+public class Q11_Billing_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter No of the Product");
+		int noProduct=sc.nextInt();
+		System.out.println("-------------------------------------------------------");
+		
+		Product arrProduct[] = new Product[noProduct];
+		
+		for(int i=0;i<arrProduct.length;i++)
+		{
+			System.out.println("Enter the Id");
+			int id=sc.nextInt();
+			sc.nextLine();
+			
+			System.out.println("Enter the Name");
+			String name =sc.nextLine();
+			
+			System.out.println("Enter the Quntity");
+			int qty=sc.nextInt();
+			
+			System.out.println("Enter the Rate");
+			int rate=sc.nextInt();
+			System.out.println("---------------------------------");
+			
+			Product objProduct = new Product();
+			
+			objProduct.setId(id);
+			objProduct.setName(name);
+			objProduct.setQTY(qty);
+			objProduct.setRate(rate);
+			
+			arrProduct[i] = objProduct;
+		}
+		CalculateBill objCalculateBill = new CalculateBill();
+		objCalculateBill.callBill(arrProduct);
+	}
+
+}

@@ -1,0 +1,14 @@
+package Loopng_PDF;
+
+/* 26. Write a C program to check whether a number is Prime number or not.*/
+
+public class Q26_Check_Number_Is_Prime_Or_Not 
+{
+	public static void main(String[] args) 
+	{
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,18 @@
+package Loopng_PDF;
+
+/* 25. Write a C program to find LCM of two numbers.*/
+
+import java.util.*;
+
+public class Q25_Find_LCM_Of_Two_Numbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the First Numnber:");
+		int num1 = sc.nextInt()
+		
+	}
+
+}

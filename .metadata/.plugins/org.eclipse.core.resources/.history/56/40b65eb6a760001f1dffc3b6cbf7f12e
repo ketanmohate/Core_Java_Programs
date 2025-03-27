@@ -1,0 +1,23 @@
+package Loopng_PDF;
+
+/* 33. Write a C program to print all Perfect numbers between 1 to n. */
+
+import java.util.Scanner;
+
+public class Q33_Print_All_Perfect_Numbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Value of N(limit)");
+		int n = sc.nextInt();
+		
+		// main logic
+		
+		for(int i=1 ; i<=n;i++)
+		{
+			
+		}
+	}
+}

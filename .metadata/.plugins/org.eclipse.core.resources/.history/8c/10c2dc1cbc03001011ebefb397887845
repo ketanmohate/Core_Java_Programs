@@ -1,0 +1,21 @@
+package Day_11_03_2025;
+
+/*
+ Q3.Stack Implementation - Implement a stack using Stack 
+  case 1: push()
+  case 2: pop()
+  case 3: peek() operations.
+  case 4: display stack value using last in first out 
+ */
+
+import java.util.*;
+
+public class Q3_Stack_Oprations 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		Stack stack = new Stack();
+	}
+}

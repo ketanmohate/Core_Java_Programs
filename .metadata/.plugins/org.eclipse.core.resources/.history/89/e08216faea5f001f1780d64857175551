@@ -1,0 +1,10 @@
+package Loopng_PDF;
+
+public class Q14_Calculate_Sum_Of_Digit 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

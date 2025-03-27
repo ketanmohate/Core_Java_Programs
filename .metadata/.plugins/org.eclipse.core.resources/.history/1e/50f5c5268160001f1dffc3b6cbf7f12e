@@ -1,0 +1,9 @@
+package Loopng_PDF;
+
+/* 24. Write a C program to find HCF (GCD) of two numbers.*/
+
+import java.util.*;
+
+public class Q24_Find_HCF_Or_GCD_Of_Two_Numbers {
+
+}

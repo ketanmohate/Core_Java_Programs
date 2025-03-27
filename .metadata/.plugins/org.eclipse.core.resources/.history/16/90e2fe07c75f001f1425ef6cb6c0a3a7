@@ -1,0 +1,23 @@
+package Loopng_PDF;
+
+import java.util.*;
+
+/* 4. Write a C program to print all even numbers between 1 to 100. - using while loop */
+
+public class Q4_Print_All_Even_No 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the value of n(Limit):");
+		int n = sc.nextInt();
+		
+		System.out.println("Print All Even Number:");
+		for(int i = 1 ; i <= n ; i++)
+		{
+			
+		}
+	}
+
+}

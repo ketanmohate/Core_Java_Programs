@@ -1,0 +1,40 @@
+package Assignment_04_09_2024.java;
+
+class Employee
+{
+	private int id;
+	private String name;
+	private int sal;
+	
+	void setId(int id)
+	{
+		this.id=id;
+	}
+	int getId()
+	{
+		return id;
+	}
+	
+	void setName(String name)
+	{
+		this.name=name;
+	}
+	String getName()
+	{
+		return name;
+	}
+	
+	void setSalary(int sal)
+	{
+		this.sal=sal;
+	}
+	int getSalary()
+	{
+		return sal;
+	}
+}
+
+public class Q17_Employee_Salary_App2 
+{
+
+}

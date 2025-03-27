@@ -1,0 +1,53 @@
+package Assignment_19_09_2024;
+
+import java.util.*;
+
+class Area
+{
+	Area(int redius)
+	{
+		float pi=(float) 3.14;
+		
+		int area = (int) (pi * redius );
+		System.out.println("Area Of Circle:\t"+area);
+	}
+	
+	Area(int heigth, int width)
+	{
+		int area = heigth * width
+	}
+	
+	Area(int x, float y)
+	{
+		
+	}
+
+}
+
+public class Q1_Area_Of_Circle_App 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Redius Of Circle");
+		int redius=sc.nextInt();
+		
+		System.out.println("Enter the Heigth of Reactangle");
+		int heigth=sc.nextInt();
+		
+		System.out.println("Enter the Width of Reactangle");
+		int width=sc.nextInt();
+		
+		System.out.println("Enter the Base of Triangle");
+		int base=sc.nextInt();
+		
+		System.out.println("Enter the Heigth Of Triangle");
+		float tHeigth=sc.nextFloat();
+		
+		Area obj1 = new Area(redius);
+		Area obj2 = new Area(heigth ,width);
+		Area obj3 = new Area(base ,tHeigth);
+		
+	}
+}

@@ -1,0 +1,10 @@
+package Date_02__08_2024;
+
+public class P10_character_is_uppercase_or_lowercase_alphabet 
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,50 @@
+package Day_11_03_2025;
+
+import java.util.*;
+
+public class Q1_ArrayList_Operations 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		List list = new ArrayList();
+		
+		boolean f = true;
+		
+		do{
+
+			System.out.println("========================================================");
+			System.out.println("Cases");
+			System.out.println("========================================================");
+			System.out.println("Case 1: Add Element");
+			System.out.println("Case 2: Print the List");
+			System.out.println("Case 3: Remove an element at a specific index");
+			
+			System.out.println("Enter the Choice");
+			int choice = sc.nextInt();
+			System.out.println("--------------------------------------------------------");
+			
+			switch(choice) 
+			{	
+				case 1:
+					System.out.println("Enter the Element");
+					list.add(sc.nextInt());
+					break;
+					
+				case 2:
+					System.out.println("Print List" + list);
+					break;
+					
+				case 3:
+					System.out.println("Enter the index");
+					int index = sc.nextInt();
+					list.remove(index);
+					break;
+					
+			}
+			
+		}while(f);
+		
+	}
+}

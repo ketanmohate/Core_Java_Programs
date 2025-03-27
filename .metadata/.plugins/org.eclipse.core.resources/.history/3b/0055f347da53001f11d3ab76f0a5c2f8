@@ -1,0 +1,10 @@
+package Date_03__08_2024;
+
+public class P11_input_week_number_and_print_week_day {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

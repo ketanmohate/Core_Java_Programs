@@ -1,0 +1,27 @@
+package Assignment_19_09_2024;
+
+import java.util.*;
+
+class CircleArea
+{
+	void Area(int x)
+	{
+		
+	}
+	
+	void Area(int x, int y)
+	{
+		
+	}
+	
+	void Area(int x, float y)
+	{
+		//  calculate area of triangle.
+	}
+
+}
+
+public class Q1_Area_Of_Circle_App 
+{
+
+}

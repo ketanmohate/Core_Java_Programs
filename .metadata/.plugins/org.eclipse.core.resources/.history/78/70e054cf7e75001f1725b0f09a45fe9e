@@ -1,0 +1,56 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Rectangle
+{	
+	int length;
+	int breadth;
+	
+	public Rectangle()
+	{
+		this.length=0;
+		this.breadth=0;
+	}
+	
+	public Rectangle(int length, int breadth)
+	{
+		this.length=length;
+		this.breadth=breadth;
+	}
+	
+	public Rectangle(int breadth)
+	{
+		this.length=0;
+		this.breadth=breadth;
+	}
+	
+	public int calArea()
+	{
+		int area = length * breadth;
+		return area;
+	}
+}
+
+public class Q1_Rectangle_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the length");
+		int length=sc.nextInt();
+		
+		System.out.println("Enter the breadth");
+		int breadth=sc.nextInt();
+		
+		Rectangle obj1 = new Rectangle();
+		Rectangle obj2 = new Rectangle(breadth, breadth);
+		Rectangle obj3 = new Rectangle(breadth,0);
+		
+		System.out.println("Area of Rectangle:\t"+obj1.getArea());
+		System.out.println("Area of Rectangle:\t"+obj2.getClass());
+		System.out.println("Area of Rectangle:\t"+obj3.getClass());
+	}
+
+}

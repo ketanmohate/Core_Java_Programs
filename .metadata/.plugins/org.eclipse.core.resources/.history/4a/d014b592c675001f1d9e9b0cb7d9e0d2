@@ -1,0 +1,12 @@
+package Assignment_04_09_2024.java;
+
+/*
+ 17) WAP to create the class name as Employee class and create the array object of 
+Employee class of size 5 and store all data in it and delete the specified employee data 
+using employee id 
+ */
+
+public class Q17_Employee_Salary_App2 
+{
+
+}

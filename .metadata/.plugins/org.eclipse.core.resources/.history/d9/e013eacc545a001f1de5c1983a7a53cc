@@ -1,0 +1,11 @@
+package Assignment_10_08_2024.com;
+
+public class Array10_Shuffle_An_Array_Using_The_Fisher_Yates_Algorithm 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

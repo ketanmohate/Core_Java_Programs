@@ -1,0 +1,138 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class StudentPojo
+{
+	private int id;
+	private String name;
+	private float per; 
+	private int totalFees;
+	private int disFees; 
+	private int actualPaidFees;
+	
+	void setId(int id) 
+	{ 
+		this.id=id; 
+	} 
+	int getId() 
+	{ 
+		return id; 
+	}
+	
+	void setName(String name) 
+	{ 
+		this.name=name; 
+	} 
+	String getName() 
+	{ 
+		return name; 
+	} 
+	
+	void setper(float per)
+	{
+		this.per=per;
+	}
+	float getper()
+	{
+		return per;
+	}
+	
+	void settotalFees(int totalFees)
+	{
+		this.totalFees=totalFees;
+	}
+	
+	int gettotalFees()
+	{
+		return totalFees;
+	}
+	
+	void setdisFees(int disFees)
+	{
+		this.disFees=disFees;
+	}
+	int getdisFees()
+	{
+		return disFees;
+	}
+	
+	void setactualPaidFees(int actualPaidFees)
+	{
+		this.actualPaidFees=actualPaidFees;
+	}
+	int getactualPaidFees()
+	{
+		return actualPaidFees;
+	}
+}
+
+class DiscountFees
+{
+	StudentPojo Student;
+	
+	void setStudent(StudentPojo Student)
+	{
+		this.Student = Student;
+	}
+	
+	void checkDiscountEligibility(float per)
+	{
+		if(per > 60)
+		{
+			int discount = (int) (Student.gettotalFees()*0.30);
+			Student.setdisFees(discount);
+			Student.setactualPaidFees(Student.gettotalFees() - discount);
+		}
+		else
+		{
+			Student.setdisFees(0);
+            Student.setactualPaidFees(Student.gettotalFees());
+		}
+	}
+	
+	void show() 
+	{
+		System.out.println("--------------------------------------------------------------");
+		System.out.println("Student Id:\t\t\t"+ Student.getId());
+		System.out.println("Student Name:\t\t\t"+ Student.getName());
+		System.out.println("Student Percentage:\t\t"+ Student.getper());
+		System.out.println("Student Total Fees:\t\t"+ Student.gettotalFees());
+		System.out.println("Student Discount Fees:\t\t"+ Student.getdisFees());
+		System.out.println("Student Actual Paid Fees:\t"+ Student.getactualPaidFees());
+		System.out.println("--------------------------------------------------------------");
+	}
+}
+
+public class Q10_Student_Discount_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Entre the Id");
+		int id=sc.nextInt();
+		sc.nextLine();
+		
+		System.out.println("Enter the Name");
+		String name = sc.nextLine();
+		
+		System.out.println("Enter the Percentage");
+		float per=sc.nextFloat();
+		
+		System.out.println("Enter the Total Fees");
+		int totalFees = sc.nextInt();
+		
+		StudentPojo obj = new StudentPojo();
+		
+		obj.setId(id);
+		obj.setName(name);
+		obj.setper(per);
+		obj.settotalFees(totalFees);
+		
+		DiscountFees objDiscountFees = new DiscountFees();
+		objDiscountFees.setStudent(obj);
+		objDiscountFees.checkDiscountEligibility(per);
+		objDiscountFees.show();
+	}
+}

@@ -1,0 +1,38 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Sum
+{
+	 void calSum(int ...x)
+	 {
+		 int sum=0;
+		 for(int i=0;i<x.length;i++)
+		 {
+			 sum=sum+x[i];
+		 }
+	 }
+}
+
+public class Q5_Sum_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the No of elements");
+		int noElem=sc.nextInt();
+		
+		int[] arrSum = new int[noElem];
+		
+		System.out.println("Enter the "+(noElem)+"");
+		for(int i=0;i<arrSum.length;i++)
+		{
+			
+		}
+		
+		Sum SumObj = new Sum();
+		SumObj.calSum(arrSum);
+	}
+
+}

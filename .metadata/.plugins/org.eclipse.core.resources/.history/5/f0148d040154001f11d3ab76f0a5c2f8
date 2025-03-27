@@ -1,0 +1,13 @@
+package Date_03__08_2024;
+
+/* 18.Write a C program to calculate profit or loss. */
+
+import java.util.*;
+
+public class P18_calculate_profit_or_loss 
+{
+	public static void main(String args[])
+	{
+		
+	}
+}

@@ -1,0 +1,48 @@
+package Assignment_21_08_2024.java;
+
+/* 
+ Q1. WAP to create class name as Power with two functions 
+void acceptBaseAndIndex(int base,int index): this function accept two parameter 
+void showPower(): this function can calculate power of two numbers
+
+ */
+import java.util.*;
+
+class power
+{
+	int base1;
+	int index1;
+	
+	void acceptBaseAndIndex(int base , int index)
+	{
+		base1 = base;
+		index1 = index;
+	}
+	
+	void showPower()
+	{
+		int pow = 1;
+		for(int i = 1 ; i <= index1 ; i++)
+		{
+			pow = pow * base1;
+		}
+		System.out.println("Power is : " + pow);
+	}
+}
+
+public class Q1_Cal_Power 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		power  obj = new power();
+		
+		System.out.println("Enter the Base");
+		int base = sc.nextInt();
+		System.out.println("Enter the Index");
+		int index = sc.nextInt();
+		
+	}
+
+}

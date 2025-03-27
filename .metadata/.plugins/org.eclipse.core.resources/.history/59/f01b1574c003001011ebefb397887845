@@ -1,0 +1,19 @@
+package Day_11_03_2025;
+
+/*
+ Q5. HashMap Basic Operations
+Create a HashMap to store key-value pairs, and perform operations such as 
+insertion, deletion, and retrieval.
+ */
+
+import java.util.*;
+
+public class Q5_HashMap_Operations 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		Map <Integer,Integer>map = new HashMap<Integer,Integer>();
+	}
+}

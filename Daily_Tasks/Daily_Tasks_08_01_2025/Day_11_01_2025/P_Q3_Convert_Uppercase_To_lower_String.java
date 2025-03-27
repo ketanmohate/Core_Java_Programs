@@ -1,0 +1,29 @@
+package Day_11_01_2025;
+
+/*
+ * Q3. WAP to convert uppercase string to lowercase without using inbuilt function?
+ */
+
+import java.util.*;
+
+public class P_Q3_Convert_Uppercase_To_lower_String 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the String:");
+		String str = sc.nextLine();
+		
+		char[] ch = str.toCharArray();
+		
+		for(int i=0 ; i<ch.length ; i++)
+		{
+			ch[i] = (char) (ch[i]+32);
+		}
+		
+		new String(ch);
+		
+		System.out.println(ch);
+	}
+}

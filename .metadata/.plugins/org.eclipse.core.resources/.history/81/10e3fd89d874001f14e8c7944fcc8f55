@@ -1,0 +1,127 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+import Assignment_13_09_2024.Library;
+
+class StudentPojo
+{
+	private int id;
+	private String name;
+	private float per; 
+	private int totalFees;
+	private int disFees; 
+	private int actualPaidFees;
+	
+	void setId(int id) 
+	{ 
+		this.id=id; 
+	} 
+	int getId() 
+	{ 
+		return id; 
+	}
+	
+	void setName(String name) 
+	{ 
+		this.name=name; 
+	} 
+	String getName() 
+	{ 
+		return name; 
+	} 
+	
+	void setper(float per)
+	{
+		this.per=per;
+	}
+	float getper()
+	{
+		return per;
+	}
+	
+	void settotalFees(int totalFees)
+	{
+		this.totalFees=totalFees;
+	}
+	
+	int gettotalFees()
+	{
+		return totalFees;
+	}
+	
+	void setdisFees(int disFees)
+	{
+		this.disFees=disFees;
+	}
+	int getdisFees()
+	{
+		return disFees;
+	}
+	
+	void actualPaidFees(int actualPaidFees)
+	{
+		this.actualPaidFees=actualPaidFees;
+	}
+	int getactualPaidFees()
+	{
+		return actualPaidFees;
+	}
+}
+
+class DiscountFees
+{
+	StudentPojo[] Student;
+	Scanner sc = new Scanner(System.in);
+	
+	void setStudent()
+	{
+		System.out.println("Entre the Id");
+		int id=sc.nextInt();
+		
+		System.out.println("Enter the Name");
+		String name = sc.nextLine();
+		
+		System.out.println("Enter the Percentage");
+		float per=sc.nextFloat();
+		
+		System.out.println("Enter the Total Fees");
+		int totalFees = sc.nextInt();
+		
+		System.out.println("Enter Discount Fees");
+		int disFees=sc.nextInt();
+		
+		System.out.println("Enter actualPaidFees");
+		int actualPaidFees = sc.nextInt();
+		
+		StudentPojo obj = new StudentPojo();
+		
+		obj.setId(id);
+		obj.setName(name);
+		obj.setper(per);
+		obj.settotalFees(totalFees);
+		obj.setdisFees(disFees);
+		obj.actualPaidFees(actualPaidFees);
+	}
+	
+	void checkDiscountEligibility(int per)
+	{
+		int totalFees=0;
+		
+		if(per > 60)
+		{
+			
+		}
+	}
+}
+
+public class Q10_Student_Discount_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		DiscountFees objDiscountFees = new DiscountFees();
+		objDiscountFees.setStudent();
+	}
+}

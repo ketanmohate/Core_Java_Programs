@@ -1,0 +1,76 @@
+package Assignment_10_08_2024.com;
+
+/* 
+ 12)Write a Java program to calculate the largest gap between sorted elements of an array of integers.  
+Example:
+Original array: [23, -2, 45, 38, 12, 4, 6]
+Largest gap between sorted elements of the said array: 15
+ */
+
+import java.util.*;
+
+public class Array12_Largest_Gap_Between_Sorted_Elements 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the size of array");
+		int size = sc.nextInt();
+		
+		int a[] = new int[size];
+		System.out.println("Enter the value of array");
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			a[i] = sc.nextInt();
+ 		}
+		
+		// Display Original array
+		System.out.println("Display Original Array");
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			System.out.print(a[i] + "\t");
+		}
+		System.out.println("");
+		
+		
+		// sort array ascending order
+		
+		System.out.println("Sortd array ascending order");
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			for(int j = i+1 ; j < a.length ; j++)
+			{
+				if(a[i] > a[j])
+				{
+					int temp = a[i];
+					a[i] = a[j];
+					a[j] = temp;
+				}
+			}
+		}
+		
+		// Display sorted array
+		
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			System.out.print(a[i] + "\t");
+		}
+		System.out.println("");
+		
+		// 
+		
+		int arrayb[] = new int[size];
+		int k =0;
+		 
+		for(int i = 0 ; i < a.length ; i++)
+		{
+			for(int j = i+1 ; j<a.length ; j++)
+			{
+				arrayb = ;
+				k++;
+			}
+		}
+	}
+
+}

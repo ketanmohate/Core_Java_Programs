@@ -1,0 +1,22 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Majority
+{
+	int arr[];
+	
+	public Majority(int arr[])
+	{
+		this.arr=arr;
+	}
+}
+
+public class Q3_Majority_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

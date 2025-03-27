@@ -1,0 +1,60 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Employee 
+{
+	int id ;
+	String name ;
+	String contact ;
+	int presentday ;
+	int perdaysal;
+	
+	public Employee(int id ,String name ,String contact ,int presentday, int perdaysal)
+	{
+		this.id=id;
+		this.name=name;
+		this.contact=contact;
+		this.presentday=presentday;
+		this.perdaysal=perdaysal;
+	}
+	
+	void CalSal()
+	{
+		
+	}
+	
+	void showDetails()
+	{
+		
+	}
+}
+
+public class Q5_Employee_Salary_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the ID");
+		int id=sc.nextInt();
+		sc.nextLine();
+		
+		System.out.println("Enter the Name");
+		String name=sc.nextLine();
+		
+		System.out.println("Enter the Contact");
+		String contact=sc.nextLine();
+		
+		System.out.println("Enter the present day");
+		int presentday=sc.nextInt();
+		
+		System.out.println("Enter the per day salary");
+		int perdaysal=sc.nextInt();
+		
+		Employee obj = new Employee();
+		
+		
+	}
+
+}

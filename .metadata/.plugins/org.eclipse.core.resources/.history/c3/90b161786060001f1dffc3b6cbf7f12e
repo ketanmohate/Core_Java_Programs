@@ -1,0 +1,20 @@
+package Loopng_PDF;
+
+/* 20. Write a C program to print all ASCII character with their values. */
+
+import java.util.*;
+
+public class Q20_Print_All_ASCII_Character 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the value of Start");
+		int strat = sc.nextInt();
+		
+		System.out.println("Enter the value");
+		
+	}
+
+}

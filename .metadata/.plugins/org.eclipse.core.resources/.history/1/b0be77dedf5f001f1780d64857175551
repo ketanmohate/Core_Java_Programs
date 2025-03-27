@@ -1,0 +1,26 @@
+package Loopng_PDF;
+
+/* 12. Write a C program to find sum of first and last digit of a number.  */
+
+import java.util.*;
+
+public class Q12_Print_The_Sum_Of_First_And_Last_Digit_OF_No 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number");
+		int num = sc.nextInt();
+		
+		// first digit
+		int FirstDigit = num;
+		
+		for(;FirstDigit >= 10;)
+		{
+			FirstDigit = FirstDigit / 10;
+		}
+
+	}
+
+}

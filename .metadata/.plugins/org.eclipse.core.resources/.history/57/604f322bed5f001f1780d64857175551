@@ -1,0 +1,29 @@
+package Loopng_PDF;
+
+/* 15. Write a C program to calculate product of digits of a number.  */
+
+import java.util.*;
+
+public class Q15_Calculate_Product_Of_Digit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number");
+		int num = sc.nextInt();
+		
+		
+		System.out.println("calculate product of digits");
+		int rem = 0;
+		int prod=0;
+		for(;num!=0;)
+		{
+			rem = num % 10;
+			prod = prod * rem;
+			num = num /10;
+		}
+		System.out.println(prod);
+	}
+
+}

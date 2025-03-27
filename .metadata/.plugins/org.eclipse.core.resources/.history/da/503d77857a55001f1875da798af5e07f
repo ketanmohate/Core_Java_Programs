@@ -1,0 +1,22 @@
+package Date_04__08_2024;
+
+import java.util.*;
+
+public class P2_Clear_Day 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the rainy in a week");
+		int x = sc.nextInt();
+		
+		System.out.println("Enter the days in a week");
+		int y = sc.nextInt();
+		
+		int sum = x + y;
+		
+		int clearday = 7 - sum;
+	}
+
+}

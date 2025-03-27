@@ -1,0 +1,16 @@
+package Date_02__08_2024;
+
+/* 10.Write a C program to check whether a character is uppercase or lowercase alphabet. */
+
+import java.util.*;
+
+public class P10_character_is_uppercase_or_lowercase_alphabet 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package Date_02__08_2024;
+
+import java.util.*;
+
+public class P3_number_is_negative_positive_or_zero 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scan = new Scanner(System.in);
+
+	}
+
+}

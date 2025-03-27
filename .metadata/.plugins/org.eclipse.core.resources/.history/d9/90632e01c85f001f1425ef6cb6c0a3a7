@@ -1,0 +1,12 @@
+package Loopng_PDF;
+
+/* 6. Write a C program to find sum of all natural numbers between 1 to n. */
+
+public class Q6_Print_Sum_Of_All_Natural_No {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

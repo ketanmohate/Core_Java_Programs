@@ -1,0 +1,10 @@
+package Loopng_PDF;
+
+public class Q15_Calculate_Product_Of_Digit 
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

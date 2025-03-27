@@ -1,0 +1,35 @@
+package Loopng_PDF;
+
+/* 11. Write a C program to find first and last digit of a number. */
+import java.util.*;
+
+public class Q11_Print_First_And_Last_Digit_OF_No 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		int num = sc.nextInt();
+		
+		// first number
+		System.out.println("FirstDigit");
+		
+		int FirstDigit = 0;
+		int temp = num;
+		
+		for(;num >= 10;)
+		{
+			num = num / 10;
+			FirstDigit = num;
+		}
+		System.out.println(FirstDigit);
+		
+		// last number
+		System.out.println("LastDigit");
+		int LastDigit = temp%10;
+		System.out.println(LastDigit);
+
+	}
+
+}

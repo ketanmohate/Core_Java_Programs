@@ -1,0 +1,56 @@
+package Assignment_04_09_2024.java;
+
+/*
+ 2.Create the Class Name as Rectangle with a following methods and write its logics. 
+class Rectangle 
+{ void setLengthWidth(int len,int wid)//accept the radius  
+{ 
+} 
+void showArea() 
+{ //write here calculation logics of circle area and display it 
+} 
+} 
+public class AreaApp 
+{  public static void main(String x[]) 
+{  //create here object of scanner and accept the length and width as input  
+//create the object of Rectangle and call setLengthWidth and pass radius input as parameter 
+//call showArea() for display the display the area 
+} 
+} 
+ */
+
+import java.util.*;
+
+class Rectangle
+{
+	float L,W;
+	void setLengthWidth(float len,float wid)
+	{
+		L=len;
+		W=wid;
+	}
+	void showArea()
+	{
+		float area = L*W;
+		System.out.println("The Area Of Rectangle:\t" + area);
+	}
+	
+}
+
+public class Q2_Rectangle_Area_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		Rectangle r = new Rectangle();
+		System.out.println("Enter the Lenght:");
+		float len = sc.nextFloat();
+		System.out.println("Enter the Width:");
+		float wid = sc.nextFloat();
+		
+		r.setLengthWidth(len, wid);
+		r.showArea();
+		
+	}
+
+}

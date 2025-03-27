@@ -1,0 +1,54 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class StudentPojo
+{
+	private int id;
+	private String name;
+	private float per; 
+	private int totalFees;
+	private int disFees; 
+	private int actualPaidFees;
+	
+	void setId(int id) 
+	{ 
+		this.id=id; 
+	} 
+	int getId() 
+	{ 
+		return id; 
+	}
+	
+	void setName(String name) 
+	{ 
+		this.name=name; 
+	} 
+	String getName() 
+	{ 
+		return name; 
+	} 
+	
+	void setper(float per)
+	{
+		this.per=per;
+	}
+	float getper()
+	{
+		return per;
+	}
+	
+	void settotalFees(int totalFees)
+	{
+		this.totalFees=totalFees;
+	}
+}
+
+public class Q10_Student_Discount_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

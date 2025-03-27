@@ -1,0 +1,46 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Student 
+{ 
+	private int[] marks = new int[nSubject];
+    private double percentage;
+	
+	void setSubMarks(int s[]) 
+	{ 
+		this.marks=s[];
+	}
+	void calculatePer() 
+	{
+		
+	}
+	void checkGrades()
+	{
+		
+	}
+} 
+public class Q4_Student_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the No of Subject");
+		int nSubject=sc.nextInt();
+
+		int[] subjectMarks = new int[nSubject];
+		
+		for(int i=0;i<arrStudent.length;i++)
+		{
+			System.out.println("Enter the " +(i+1)+"Marks");
+			int subMark = sc.nextInt();
+			
+			Student stud = new Student();
+			stud.setSubMarks(arrStudent[i]);
+			
+			stud = arrStudent[i];
+		}
+	}
+
+}

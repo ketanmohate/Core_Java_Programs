@@ -1,0 +1,26 @@
+package Date_02__08_2024;
+
+/*3.Write a C program to check whether a number is negative, positive or zero.*/
+
+import java.util.*;
+
+public class P3_number_is_negative_positive_or_zero 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number");
+		int num = sc.nextInt();
+		
+		if(num > 0)
+		{
+			System.out.println("Number is Positive");
+		}
+		else if(num < 0)
+		{
+			System.out.println("Number is Negative");
+		}
+	}
+
+}

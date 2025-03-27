@@ -1,0 +1,14 @@
+package Loopng_PDF;
+
+/* 34. Write a C program to check whether a number is Strong number or not. */
+
+import java.util.*;
+
+public class Q34_Check_Number_is_Strong_Or_Not 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

@@ -1,0 +1,17 @@
+package Assignment_21_08_2024.java;
+
+/*
+ Q4. WAP to create class name as Rev with two functions 
+void setValue(int x): this function can accept number as parameter
+int getRev(): this function can reverse the number and return it.
+ */
+
+public class Q4_Reverse_No 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

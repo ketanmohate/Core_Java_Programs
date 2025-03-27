@@ -1,0 +1,55 @@
+package Date_04__08_2024;
+
+/* Example6
+Biryani classes
+According to a recent survey, Biryani is the most ordered food. Chef wants to learn how to make 
+world-class Biryani from a MasterChef. 
+Chef will be required to attend the MasterChef's classes for X weeks, and the cost of classes per week 
+is Y coins. 
+What is the total amount of money that Chef will have to pay?
+Input Format
+The first line of input will contain an integer T the number of test cases. 
+The description of T test cases follows.
+The first and only line of each test case contains two space-separated integers X and Y, as described in 
+the problem statement.
+Output Format
+For each test case, output on a new line the total amount of money that Chef will have to pay.
+Constraints
+1≤T≤104
+1≤XY≤100
+Sample 1:
+Input Output
+4
+1 10 10
+1 15 15
+2 10 20
+2 15 30  
+
+Test case 1: Chef will be required to attend the MasterChef's classes for 1 week and the cost of 
+classes per week is 10 coins. Hence, Chef will have to pay 10 coins in total.
+Test case 2: Chef will be required to attend the MasterChef's classes for 1 week and the cost of 
+classes per week is 15 coins. Hence, Chef will have to pay 15 coins in total.
+
+*/
+
+import java.util.*;
+
+public class P7_Biryani_classes 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the weeks");
+		int x = sc.nextInt();
+		
+		System.out.println("Enter the coins");
+		int y = sc.nextInt();
+		
+		int totalcost=x*y;
+		
+		System.out.println("Total amount of money that Chef will have to pay");
+		System.out.println(totalcost);
+	}
+
+}

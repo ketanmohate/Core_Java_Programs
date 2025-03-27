@@ -1,0 +1,30 @@
+package com.java;
+/* 7. Write a Java program to find sum of all even numbers between 1 to n.*/
+	
+import java.util.*;
+	
+public class PrintSumOfAllEvenNo
+{
+	public static void main(String args[])
+	{
+		int num;
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.println("Enter the number:");
+		num = scan.nextInt();
+		
+		int i = 1;
+		int sum = 0;
+
+		while(i <= num)
+		{
+			if(i % 2 == 0)
+			{
+				sum = sum + i;
+			}
+		i++;
+		}
+		System.out.println("Sum of All even number:" + sum);
+	}
+} 
+		

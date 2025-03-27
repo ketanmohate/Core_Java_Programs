@@ -1,0 +1,235 @@
+package Assignment_13_09_2024;
+
+import java.util.*;
+
+class Library
+{
+	private int accessionNo;
+	private String title;
+	private String authorName;
+	private int price;
+	
+	public void setDetails(int accessionNo,String title ,String authorName ,int price)
+	{
+		this.accessionNo=accessionNo;
+		this.title=title;
+		this.authorName=authorName;
+		this.price=price;
+	}
+	public int getAccessionNo()
+	{
+		return accessionNo;
+	}
+	public String getTitle()
+	{
+		return title;
+	}
+	public String getAuthorName()
+	{
+		return authorName;
+	}
+	public int getPrice()
+	{
+		return price;
+	}
+}
+
+class displayMenu
+{
+	Scanner sc = new Scanner(System.in);
+	Library[] arrLibrary;
+	    
+	public void addBook()
+	{
+		System.out.println("Enter How Many Books Add");
+		int nBook = sc.nextInt();
+		System.out.println("----------------------------------------------------------");
+		
+		arrLibrary = new Library[nBook];
+		
+		if(arrLibrary != null)
+		{
+			boolean found1 = false;
+			for(int i=0;i<arrLibrary.length;i++)
+			{
+				if(arrLibrary[i] != null)
+				{
+					System.out.println("==========================================================");
+					System.out.println("Enter the "+ (i+1) + " Book Details");
+					System.out.println("==========================================================");
+					
+					System.out.println("Enter The Accession Number");
+					int accessionNo = sc.nextInt();
+					sc.nextLine();
+					
+					System.out.println("Enter The Title");
+					String title = sc.nextLine();
+					
+					System.out.println("Enter The Author Name");
+					String authorName = sc.nextLine();
+					
+					System.out.println("Enter The Price");
+					int price = sc.nextInt();
+					sc.nextLine();
+					
+					System.out.println("----------------------------------------------------------");
+					
+					Library lObj = new Library();
+					
+					lObj.setDetails(accessionNo, title, authorName, price);
+					
+					arrLibrary[i] = lObj;
+					found1 = true;
+				}
+			}
+			if(found1==false)
+			{
+				System.out.println("Book Is Not found");
+			}
+		}
+		else
+		{
+			System.out.println("Book Is Not found");
+		}
+	}
+	
+	public void displayBook()
+	{
+		System.out.println("==========================================================");
+		System.out.println("Display All Boolks");
+		System.out.println("==========================================================");
+		
+		if(arrLibrary != null)
+		{
+			boolean found2 = false;
+			for(int i=0 ;i<arrLibrary.length;i++)
+			{
+				if(arrLibrary[i] != null)
+				{
+					System.out.println("Display "+ (i+1) + " Book Details");
+					System.out.println("----------------------------------------------------------");
+					System.out.println("Book Accession Number\t\t"+arrLibrary[i].getAccessionNo());
+					System.out.println("Book title\t\t\t"+arrLibrary[i].getTitle());
+					System.out.println("Book Author Name\t\t"+arrLibrary[i].getAuthorName());
+					System.out.println("Book Price\t\t\t"+arrLibrary[i].getPrice());
+					System.out.println("----------------------------------------------------------");
+					found2 = true;
+				}
+			}
+			if(found2 == false)
+			{
+				System.out.println("Book Is Not found");
+			}
+		}
+		else
+		{
+			System.out.println("Book Is Not found");
+		}
+	}
+	
+	public void displayListByAuthor()
+	{
+		
+		System.out.println("Enter the author Name");
+		String authorName = sc.nextLine();
+		
+		System.out.println("==========================================================");
+		System.out.println("Display List of all book of given author");
+		System.out.println("==========================================================");
+		
+		if(arrLibrary != null)
+		{
+			boolean found3 = false;
+			for(int i=0;i<arrLibrary.length;i++)
+			{
+				if(arrLibrary[i] != null)
+				{
+					if(arrLibrary[i].getAuthorName().equals(authorName))
+					{
+						System.out.println("Display "+ (i+1) + " Book Details");
+						System.out.println("----------------------------------------------------------");
+						System.out.println("Book Accession Number\t\t"+arrLibrary[i].getAccessionNo());
+						System.out.println("Book title\t\t\t"+arrLibrary[i].getTitle());
+						System.out.println("Book Author Name\t\t"+arrLibrary[i].getAuthorName());
+						System.out.println("Book Price\t\t\t"+arrLibrary[i].getPrice());
+						System.out.println("----------------------------------------------------------");
+						found3 = true;
+					}
+				}
+			}
+			if(found3==false)
+			{
+				{
+					System.out.println("----------------------------------------------------------");
+					System.out.println("Book Is Not found");
+				}
+			}
+		}
+		else
+		{
+			System.out.println("----------------------------------------------------------");
+			System.out.println("Book Is Not found");
+		}
+	}
+	
+	public void displayListByTitle()
+	{
+		System.out.println("Enter The Title");
+		String title = sc.nextLine();
+		
+		System.out.println("==========================================================");
+		System.out.println("Display list the title of specified book");
+		System.out.println("==========================================================");
+	}
+}
+
+public class Library_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		displayMenu disMenu = new displayMenu();
+		boolean flag=true;
+		do
+		{
+			System.out.println("==========================================================");
+			System.out.println("Menu Options");
+			System.out.println("==========================================================");
+			System.out.println("1. Add Book Details");
+			System.out.println("2. Display All Book Details");
+			System.out.println("3. Display List of all book of given author");
+			System.out.println("4. Display list the title of specified book");
+			System.out.println("5. Display list count of the book in the library");
+			System.out.println("6. Display list the books in the ascending order of accession number");
+			System.out.println("7. Update book details by title of book");
+			System.out.println("8. Delete book details by price");
+			System.out.println("9. Exit The Code");
+			System.out.println("==========================================================");
+			
+			System.out.println("Enter your Choise");
+			int choise=sc.nextInt();
+			sc.nextLine();
+			System.out.println("----------------------------------------------------------");
+
+			switch(choise)
+			{
+				case 1:
+					disMenu.addBook();
+					break;
+					
+				case 2:
+					disMenu.displayBook();
+					break;
+					
+				case 3:
+					disMenu.displayListByAuthor();
+					break;
+					
+				default:
+					System.out.println("Plz Enter Valid Inpute...");
+			}
+		}while(flag==true);
+
+	}
+
+}

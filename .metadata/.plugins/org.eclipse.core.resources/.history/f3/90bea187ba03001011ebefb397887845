@@ -1,0 +1,19 @@
+package Day_11_03_2025;
+
+/*
+ Q2. LinkedList Implementation
+Create a LinkedList of strings, 
+ case 1: add some element
+ case 2: print the list
+ case 3: remove elements from the front and rear.
+ */
+
+import java.util.*;
+
+public class Q2_LinkedList_Oprations 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+}

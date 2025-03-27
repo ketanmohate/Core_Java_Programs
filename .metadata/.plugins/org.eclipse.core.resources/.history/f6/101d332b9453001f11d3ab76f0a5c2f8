@@ -1,0 +1,13 @@
+package Date_02__08_2024;
+
+import java.util.*;
+
+public class P2_find_maximum_between_three_umbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

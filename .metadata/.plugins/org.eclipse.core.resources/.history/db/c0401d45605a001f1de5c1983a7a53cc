@@ -1,0 +1,23 @@
+package Assignment_10_08_2024.com;
+
+/* 
+ 12)Write a Java program to calculate the largest gap between sorted elements of an array of integers.  
+Example:
+Original array: [23, -2, 45, 38, 12, 4, 6]
+Largest gap between sorted elements of the said array: 15
+ */
+
+import java.util.*;
+
+public class Array12_Largest_Gap_Between_Sorted_Elements 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the size of arrat");
+		int size = sc.nextInt();
+
+	}
+
+}

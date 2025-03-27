@@ -1,0 +1,22 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class StudentPojo
+{
+	private int id;
+	Private String name;
+	float per; 
+	int totalFees;
+	int disFees; 
+	int actualPaidFees;
+}
+
+public class Q10_Student_Discount_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

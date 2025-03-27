@@ -1,0 +1,108 @@
+package Assignment_18_09_2024;
+
+/*
+Q.4 WAP to Create a class name as StudentPer with a parameterised constructor and two function void CalPer( ) and void checkGrades( ).
+
+StudentPer(int [ ])
+{
+// this constructor can accept the array.
+}
+
+void CalPer( ) 
+{
+//this function can use calculate the percentage in array.
+}
+
+void checkGrades()
+{
+//this function can use check the grade.
+		percentage >= 90% : Grade A
+ 		percentage >= 80% : Grade B
+		percentage >= 70% : Grade C
+		percentage >= 60% : Grade D
+		percentage >= 50% : Grade E
+		percentage >= 40% : Grade F
+		percentage < 40% : Student is Fail.
+}
+ */
+
+import java.util.*;
+
+class StudentPer
+{
+	int arr[];
+	double percentage=0;
+	
+	StudentPer(int arr[])
+	{
+		this.arr = arr;
+	}
+	
+	void CalPer()
+	{
+		int sum=0;
+		for(int i=0;i<arr.length;i++)
+		{
+			sum = sum + arr[i];
+		}
+		percentage = sum / arr.length;
+		
+		System.out.println("Percentage:\t" + percentage);
+	}
+	
+	void checkGrades()
+	{
+		if(percentage >= 90)
+		{
+			System.out.println("Grade A");
+		}
+		else if(percentage >= 80)
+		{
+			System.out.println("Grade B");
+		}
+		else if(percentage >= 70)
+		{
+			System.out.println("Grade C");
+		}
+		else if(percentage >= 60)
+		{
+			System.out.println("Grade D");
+		}
+		else if(percentage >= 50)
+		{
+			System.out.println("Grade E");
+		}
+		else if(percentage >= 40)
+		{
+			System.out.println("Grade F");
+		}
+		else
+		{
+			System.out.println("Student is Fail");
+		}
+	}
+}
+
+public class Q4_Student_Percentage_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Enter the No of Subject");
+		int size=sc.nextInt();
+		
+		int arr[] = new int[size];
+		
+		System.out.println("Enter the Subject Marks");
+		for(int i=0;i<arr.length;i++)
+		{
+			arr[i] = sc.nextInt();
+		}
+		
+		StudentPer obj = new StudentPer(arr);
+		obj.CalPer();
+		obj.checkGrades();
+	}
+
+}

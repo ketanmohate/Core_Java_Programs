@@ -1,0 +1,66 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Player
+{
+	private int id; 
+	private String name; 
+	private int runs; 
+	
+	public void setId(int id) 
+	{ 
+		this.id=id; 
+	} 
+	public int getId() 
+	{ 
+		return id; 
+	} 
+	
+	public void setName(String name) 
+	{ 
+		this.name=name; 
+	} 
+	public String getName() 
+	{ 
+		return name; 
+	} 
+	
+	public void setRuns(int runs) 
+	{ 
+		this.runs=runs; 
+	} 
+	public int getRuns() 
+	{ 
+		return runs; 
+	} 
+}
+
+class Team
+{
+
+	System.out.println("Enter the No of plears Add")
+	System.out.println("The Area Of Rectangle:\t");
+	
+	Player[] arrPlayer = new Player[5];
+	
+	Player objPlayer = new Player();
+	
+	
+	void addPlayers(Player...arrPlayer)
+	{
+		
+	}
+}
+
+public class Q12_Team_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		Team objTeam = new Team();
+		
+	}
+
+}

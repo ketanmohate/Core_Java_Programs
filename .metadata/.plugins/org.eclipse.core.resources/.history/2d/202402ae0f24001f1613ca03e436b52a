@@ -1,0 +1,19 @@
+/* 4. Write a Java program to print all even numbers between 1 to 100.*/
+	
+import java.util.*;
+	
+public class PrintAllEvenNumberApp2
+{
+    public static void main(String[] args) 
+	{
+        	Scanner scanner = new Scanner(System.in);
+        	System.out.println("Enter a number: ");
+        	int n = scanner.nextInt();
+        	int i = 2;
+        	while (i <= n) 
+		{
+            		System.out.println(i);
+            		i += 2;
+        	}
+    	}
+}

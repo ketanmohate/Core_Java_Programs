@@ -1,0 +1,29 @@
+package Loopng_PDF;
+
+/* 14. Write a C program to calculate sum of digits of a number.  */
+
+import java.util.*;
+
+public class Q14_Calculate_Sum_Of_Digit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		int num = sc.nextInt();
+		
+		System.out.println("Print Calculate Sum of Digit:");
+		int sum = 0;
+		int rem=0;
+		for(; num != 0;)
+		{
+			rem = num % 10;
+			sum = sum + rem;
+			num = num / 10;
+		}
+		System.out.println(sum);
+			
+	}
+
+}

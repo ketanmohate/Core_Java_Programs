@@ -1,0 +1,15 @@
+package Date_02__08_2024;
+
+import java.util.*;
+/* 1.Write a C program to find maximum between two numbers.*/
+
+public class P1_find_maximum_between_two_umbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int num1
+
+	}
+
+}

@@ -1,0 +1,52 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Employee
+{
+	private int id;
+	private String name;
+	private int sal;
+	
+	void setId(int id)
+	{
+		this.id=id;
+	}
+	int getId()
+	{
+		return id;
+	}
+	
+	void setName(String name)
+	{
+		this.name=name;
+	}
+	String getName()
+	{
+		return name;
+	}
+	
+	void setSalary(int sal)
+	{
+		this.sal=sal;
+	}
+	int getSalary()
+	{
+		return sal;
+	}
+}
+
+
+public class Q15_Employee_Salary_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the No of Employee");
+		int size=sc.nextInt();
+		
+		Employee[] arrEmployees = new Employee[size];
+	}
+
+}

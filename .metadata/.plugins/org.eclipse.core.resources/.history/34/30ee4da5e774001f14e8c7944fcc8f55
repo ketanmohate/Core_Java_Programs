@@ -1,0 +1,43 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Product
+{
+	private int id; 
+	private String name; 
+	private int qty; 
+	private int rate;
+	
+	public void setId(int id)
+	{
+		this.id=id;
+	}
+	public int getId(int id)
+	{
+		return id;
+	}
+	
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	
+	public void setQTY(int qty)
+	{
+		this.qty=qtu;
+	}
+	
+}
+public class Q11_Billing_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

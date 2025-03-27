@@ -1,0 +1,30 @@
+package Loopng_PDF;
+
+/* 16. Write a C program to enter a number and print its reverse. */
+
+import java.util.*;
+
+public class Q16_Print_Number_Reverse 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number");
+		int num = sc.nextInt();
+		
+		// main logic
+		
+		int rev = 0;
+		
+		for(;num!=0;)
+		{
+			int rem = num%10;
+			rev = rev*10+rem;
+			num = num/10;
+		}
+		System.out.println(rev);
+		
+	}
+
+}

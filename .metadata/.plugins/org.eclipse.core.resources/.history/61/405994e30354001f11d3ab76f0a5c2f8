@@ -1,0 +1,51 @@
+package Date_03__08_2024;
+
+/* 19.Write a C program to input marks of five subjects Physics, Chemistry, Biology, Mathematics and 
+Computer. Calculate percentage and grade according to following:
+Percentage >= 90% : Grade A
+Percentage >= 80% : Grade B
+Percentage >= 70% : Grade C
+Percentage >= 60% : Grade D
+Percentage >= 40% : Grade E
+Percentage < 40% : Grade F */
+
+import java.util.*;
+
+public class P19_Calculate_percentage_and_grade 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Physics Marks");
+		int physics = sc.nextInt();
+		
+		System.out.println("Enter the Chemistry Marks");
+		int chemistry = sc.nextInt();
+		
+		System.out.println("Enter the Biology Marks");
+		int biology = sc.nextInt();
+		
+		System.out.println("Enter the Mathematics Marks");
+		int mathematics = sc.nextInt();
+
+		System.out.println("Enter the Computer Marks");
+		int computer = sc.nextInt();
+		
+		int totalm = physics + chemistry + biology + mathematics + computer;
+		
+		int percentage = (totalm / 500) * 100;
+		
+		if(percentage >= 90)
+		{
+			System.out.println("Grade A");
+		}
+		else if(percentage >= 80)
+		{
+			System.out.println("Grade B");
+		}
+		
+		else if(percentage >= 70)
+	}
+
+}

@@ -1,0 +1,65 @@
+package Day_29_10_2024;
+
+import java.util.*;
+
+class RemoveDuplicate
+{
+	int [] arr;
+	
+ 	void setArray(int a[]) 
+	{
+		this.arr=a;
+	}
+	int[] getSortArray()
+	{
+		int newArr[] = new int[arr.length]; 
+		
+		int k=0;
+		for(int i=0 ; i<arr.length ; i++)
+		{
+			for(int j=0 ; j<arr.length ; j++)
+			{
+				if(arr[i] != arr[j])
+				{
+					newArr[k++] = arr[i];
+				}
+
+			}
+			break;
+		}
+		return newArr;
+	}
+}
+
+public class Q1_Remove_Duplicates_from_Array 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Array size");
+		int size = sc.nextInt();
+		
+		int arr[] = new int[size];
+		
+		System.out.println("Enter the Array Elements:");
+		for(int i=0; i<arr.length ; i++)
+		{
+			arr[i] = sc.nextInt();
+		}
+		
+		RemoveDuplicate rd = new RemoveDuplicate();
+		
+		rd.setArray(arr);
+		
+		int result[] = rd.getSortArray();
+		
+		System.out.println("Remove Duplicate Array");
+		for(int i=0 ; i<result.length ; i++)
+		{
+			System.out.print(result[i]+ " ");
+		}
+		
+	}
+
+}

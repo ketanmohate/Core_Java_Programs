@@ -1,0 +1,12 @@
+package Day_05_02_2025;
+
+import java.util.*;
+
+public class Q1_Words_Reversed 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

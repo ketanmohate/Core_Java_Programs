@@ -1,0 +1,11 @@
+package Loopng_PDF;
+
+public class Q2_Print_All_Natural_No_In_Reverse 
+{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

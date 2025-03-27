@@ -1,0 +1,27 @@
+package com.java;
+/* 5. Write a Java program to print all odd number between 1 to 100.*/
+	
+import java.util.*;
+	
+public class AllOddNumbePrintApp
+{
+	public static void main(String agrs[])
+	{
+		int num;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter the number:");
+		num = scan.nextInt();
+	
+		int i = 1;	
+
+		while(i <= num)
+		{	
+			if(i % 2 != 0)
+			{
+				System.out.println(i);
+			
+			}
+		i++;
+		}
+	}
+}

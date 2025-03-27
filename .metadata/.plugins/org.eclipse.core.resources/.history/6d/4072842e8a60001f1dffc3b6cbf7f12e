@@ -1,0 +1,20 @@
+package Loopng_PDF;
+
+/* 27. Write a C program to print all Prime numbers between 1 to n. */
+
+import java.util.*;
+
+public class Q27_Print_All_Prime_Number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the value of N(Limit)");
+		int n = sc.nextInt();
+		
+		// main logic;
+		
+	}
+
+}

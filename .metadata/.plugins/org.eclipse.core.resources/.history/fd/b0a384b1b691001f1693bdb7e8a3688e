@@ -1,0 +1,19 @@
+package Secound_Section;
+
+import java.util.*;
+
+class Airplane
+{
+	
+}
+
+public class Q5_Travel_Reservations_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+package Date_02__08_2024;
+
+import java.util.*;
+/* 1.Write a C program to find maximum between two numbers.*/
+
+public class P1_find_maximum_between_two_umbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.err.println("Enter the first number");
+		int num1 = sc.nextInt();
+		
+		System.out.println("Enter the secound number");
+		int num2=sc.nextInt();
+		
+		//using if else
+		
+//		if(num1 > num2)
+//		{
+//			System.out.println("first Number is Max: \t" + num1);
+//		}
+//		else
+//		{
+//			System.out.println("Secound number is Max: \t" + num2);
+//		}
+		
+		//using ternary operator
+		
+		String result = (num1 > num2) ? "first Number is Max" : "Secound Number is Max" ;
+		System.out.println(result);
+		
+	}
+
+}

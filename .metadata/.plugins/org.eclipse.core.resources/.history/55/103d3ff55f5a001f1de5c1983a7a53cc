@@ -1,0 +1,10 @@
+package Assignment_10_08_2024.com;
+
+public class Array12_Largest_Gap_Between_Sorted_Elements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

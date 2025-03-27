@@ -1,0 +1,15 @@
+package Loopng_PDF;
+
+/* 1. Write a C program to print all natural numbers from 1 to n. - using while loop */
+
+import java.util.*;
+
+public class Q1_Print_All_Natural_No
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

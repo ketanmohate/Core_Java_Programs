@@ -1,0 +1,17 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class student
+{
+	
+}
+
+public class Q10_Student_Discount_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

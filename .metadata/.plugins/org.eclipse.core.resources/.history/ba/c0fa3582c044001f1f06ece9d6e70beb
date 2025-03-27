@@ -1,0 +1,58 @@
+package Prictic.java;
+
+/* 7) WAP to enter the 10 element array and print the occurrence of every element ?
+a[0] a[1] a[2] a[3] a[4] a[5] a[6] a[7] a[8] a[9]
+10 20 30 10 20 50 30 10 30 10
+Output :
+Element count
+10 -------------------- 4
+20 -------------------- 2
+30 -------------------- 3
+50 ------------------ 1
+*/
+
+import java.util.*;
+
+public class Array22_OccurrenceElemente 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the array element");
+		
+		int a[] = new int[5];
+		
+		for(int i = 0 ; i <a.length ; i++)
+		{
+			a[i] = sc.nextInt();
+		}
+		
+		System.out.println("occurrence of every element");
+		
+		int count = 0;
+		int i,j , flag;
+		
+		for(i = 0 ; i < a.length ; i++)
+		{
+			count= 0;
+			
+			for(j = i+1 ; j < a.length ; j++)
+			{
+				if(a[i] == a[j])
+				{
+					count ++;
+					break;
+				}
+			}
+			
+			System.out.println(a[i]+"-------"+count);
+			
+		}
+
+	}
+	
+
+
+}

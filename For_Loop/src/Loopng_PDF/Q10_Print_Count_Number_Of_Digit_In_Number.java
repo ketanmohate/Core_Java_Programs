@@ -1,0 +1,27 @@
+package Loopng_PDF;
+
+/* 10. Write a C program to count number of digits in a number. */
+
+import java.util.*;
+
+public class Q10_Print_Count_Number_Of_Digit_In_Number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the number");
+		int num = sc.nextInt();
+		 
+		System.out.println("Print Number of Digit count in Number");
+		int count = 0;
+		
+		for(;num != 0;)
+		{
+			num = num / 10;
+			count++;
+		}
+		System.out.println(count);
+	}
+
+}

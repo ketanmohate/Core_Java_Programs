@@ -1,0 +1,13 @@
+package Date_04__08_2024;
+
+import java.util.*;
+
+public class P7_Biryani_classes 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package Date_04__08_2024;
+
+import java.util.*;
+
+public class P4_Saving_Taxes 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+        int T = sc.nextInt();
+        
+        // Loop through each test case
+        for (int i = 0; i < T; i++) {
+            // Input the earned amount X and the tax-free limit Y
+            int X = sc.nextInt();
+            int Y = sc.nextInt();
+            
+            // Calculate the minimum amount to invest to avoid taxes
+            int amountToInvest = X - Y;
+            
+            // Output the result for this test case
+            System.out.println(amountToInvest);
+        }
+
+	}
+
+}

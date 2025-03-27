@@ -1,0 +1,15 @@
+package Loopng_PDF;
+
+/* 31. Write a C program to print all Armstrong numbers between 1 to n.*/
+
+import java.util.*;
+
+public class Q31_Print_All_Armstrong_Numbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the value of N(limit):");
+	}
+
+}

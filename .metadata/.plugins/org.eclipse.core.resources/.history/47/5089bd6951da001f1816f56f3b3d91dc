@@ -1,0 +1,19 @@
+package Day_29_10_2024;
+
+import java.util.*;
+
+public class Q1_Remove_Duplicates_from_Array 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Array size");
+		int size = sc.nextInt();
+		
+		int arr[] = new int[size];
+		
+		
+	}
+
+}

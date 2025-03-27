@@ -1,0 +1,24 @@
+package Date_04__08_2024;
+
+import java.util.*;
+
+public class P6_Masterchef_finals2 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the current rank of Chef");
+		int x = sc.nextInt();
+		
+		if(x<=10)
+		{
+			System.out.println("YES");
+		}
+		else
+		{
+			System.out.println("NO");
+		}
+	}
+
+}

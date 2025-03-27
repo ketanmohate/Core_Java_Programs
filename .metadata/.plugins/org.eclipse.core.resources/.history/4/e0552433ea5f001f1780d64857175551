@@ -1,0 +1,61 @@
+package Loopng_PDF;
+
+/* 13. Write a C program to swap first and last digits of a number. */
+
+import java.util.*;
+
+public class Q13_Swap_First_And_Last_Digit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		int num = sc.nextInt();
+		
+		int temp = num;
+		
+		// first Digit
+		int FirstDigit=temp;
+		System.out.println("First Digit");
+		for(; FirstDigit >= 10;)
+		{
+			FirstDigit = FirstDigit /10;
+		}
+		System.out.println(FirstDigit);
+		
+		//Last Digit
+		System.out.println("Last Digit");
+		int LastDigit = temp % 10;
+		System.out.println(LastDigit);
+		
+		// Swap First and last digit
+		temp = num;
+		System.out.println("Find Count");
+		int count = 0;
+		for(;temp != 0;)
+		{
+			temp = temp / 10;
+			count++;
+		}
+		System.out.println(count);
+		
+		System.out.println("find pow");
+		int pow = 1;
+		for(;count!=1;)
+		{
+			pow = pow * 10;
+			count--;
+		}
+		System.out.println(pow);
+		
+		System.out.println("Find Mid");
+		temp = num;
+		int mid = (temp % pow) / 10;
+		System.out.println(mid);
+		
+		System.out.println("Swap First And Last Digit");
+		int swap = pow * FirstDigit + mid + LastDigit;
+	}
+
+}

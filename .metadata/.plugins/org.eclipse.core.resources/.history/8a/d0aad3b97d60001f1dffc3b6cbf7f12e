@@ -1,0 +1,10 @@
+package Loopng_PDF;
+
+public class Q23_Calculate_Factorial_Of_A_Number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

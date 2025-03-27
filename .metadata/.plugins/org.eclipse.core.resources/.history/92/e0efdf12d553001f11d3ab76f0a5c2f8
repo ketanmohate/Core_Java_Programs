@@ -1,0 +1,15 @@
+package Date_02__08_2024;
+
+/* 8.Write a C program to input any alphabet and check whether it is vowel or consonant. */
+
+import java.util.*;
+
+public class P8_alphabet_is_vowel_or_consonant 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+
+	}
+
+}

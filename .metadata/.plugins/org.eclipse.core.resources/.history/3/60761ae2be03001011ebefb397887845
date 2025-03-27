@@ -1,0 +1,48 @@
+package Day_11_03_2025;
+
+/*
+ Q4.  Set Operations: Create a HashSet to store unique elements
+ case 1: add elements to the set
+ case 2: checking if an element exists
+ case 3: finding the size of the set.
+ */
+
+import java.util.*;
+
+public class Q4_Set_Operations 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		Set set = new HashSet();
+		
+		do {
+			
+			System.out.println("========================================================");
+			System.out.println("Cases");
+			System.out.println("========================================================");
+			System.out.println("Case 1: Add elements to the set");
+			System.out.println("Case 2: Checking if an element exists");
+			System.out.println("Case 3: Finding the size of the set");
+			System.out.println("Case 4: Exit");
+			
+			System.out.println("Enter the Choice");
+			int choice = sc.nextInt();
+			System.out.println("--------------------------------------------------------");
+			
+			switch(choice) 
+			{
+				case 1:
+					break;
+					
+				case 2:
+					break;
+					
+				case 3:
+					break;
+			}
+			
+		}while(true);
+	}
+}

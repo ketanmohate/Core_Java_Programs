@@ -1,0 +1,10 @@
+package Date_02__08_2024;
+
+public class P5_number_is_even_or_odd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

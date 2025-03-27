@@ -1,0 +1,12 @@
+package Loopng_PDF;
+
+/* 5. Write a C program to print all odd number between 1 to 100. */
+
+public class Q4_Print_All_Odd_No {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

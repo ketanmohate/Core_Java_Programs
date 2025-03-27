@@ -1,0 +1,35 @@
+package Date_02__08_2024;
+
+import java.util.*;
+
+public class P2_find_maximum_between_three_umbers 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.err.println("Enter the first number");
+		int num1 = sc.nextInt();
+		
+		System.out.println("Enter the secound number");
+		int num2 = sc.nextInt();
+		
+		System.out.println("Enter the third number");
+		int num3 = sc.nextInt();
+		
+		if(num1 > num2 && num1 > num3)
+		{
+			System.err.println("first number in Max:" + num1);
+		}
+		else if(num2 > num1 && num2 > num3)
+		{
+			System.err.println("secoud number in Max:" + num2);
+		}
+		else
+		{
+			System.err.println("third number in Max:" + num1);
+		}
+
+	}
+
+}

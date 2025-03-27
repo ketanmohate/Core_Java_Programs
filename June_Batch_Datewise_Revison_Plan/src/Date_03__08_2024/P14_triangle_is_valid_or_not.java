@@ -1,0 +1,34 @@
+package Date_03__08_2024;
+
+/* 14.Write a C program to input angles of a triangle and check whether triangle is valid or not. */
+
+import java.util.*;
+
+public class P14_triangle_is_valid_or_not
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the angle1 of Triangle:");
+		double angle1 = sc.nextDouble();
+		
+		System.out.println("Enter the angle2 of Triangle:");
+		double angle2 = sc.nextDouble();
+		
+		System.out.println("Enter the angle3 of Triangle");
+		double angle3 = sc.nextDouble();
+		
+		double sum = angle1 + angle2;
+		
+		if(sum == 180 && angle1 > 0 && angle2 > 0 && angle3 >0)
+		{
+			System.out.println("Valid Triangle");
+		}
+		else
+		{
+			System.out.println("Invalid Triangle");
+		}
+	}
+
+}

@@ -1,0 +1,87 @@
+package Assignment_04_09_2024.java;
+
+/*
+ 8.WAP to create the class name as ArrayFeqCount with a following methods 
+class ArrayFeqCount 
+{  int c[]; 
+void setIntArray(int ch[]) 
+{ //here accept the integer array and store in instance variable in integer array 
+c=ch; 
+} 
+void countFeqCount() 
+{ //here we need to write the manual logics for  inserting value on specified index in arr 
+} 
+} 
+public class ConvertToUpperApp 
+{ 
+} 
+public static void main(String x[]) 
+{  //here create the array with 6 six size and store only  value in it using scanner 
+// create the object of ArrayFeqCount 
+//call the setIntArray function 
+//call the countFeqCount() and write the manual logics 
+} 
+ */
+
+import java.util.*;
+
+class ArrayFeqCount
+{
+	int c[];
+	void setIntArray(int ch[]) 
+	{
+		c=ch;
+	}
+	void countFeqCount() 
+	{
+		System.out.println("Fequency");
+
+	      for (int i = 0; i < c.length; i++) 
+	      {
+	            int count = 1;
+	            boolean flag = false;
+	            for (int j = 0; j < i; j++) 
+	            {
+	                if (c[i] == c[j]) 
+	                {
+	                	flag = true;
+	                    break;
+	                }
+	            }
+	            if (flag==false) 
+	            {
+	                for (int j = i + 1; j < c.length; j++) 
+	                {
+	                    if (c[i] == c[j]) 
+	                    {
+	                        count++;
+	                    }
+	                }
+	                System.out.println(c[i] + "-------->" + count);
+	            }
+	        }
+	}
+}
+
+public class Q8_Array_Fequency_Count 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the sixe of Array");
+		int size=sc.nextInt();
+		
+		int arrFeqCount[] = new int[size];
+		
+		System.out.println("Enter the Element");
+		for(int i=0;i<arrFeqCount.length;i++)
+		{
+			arrFeqCount[i]=sc.nextInt();
+		}
+		
+		ArrayFeqCount obj = new ArrayFeqCount();
+		obj.setIntArray(arrFeqCount);
+		obj.countFeqCount();
+	}
+}

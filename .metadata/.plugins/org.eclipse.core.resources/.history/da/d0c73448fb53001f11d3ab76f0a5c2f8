@@ -1,0 +1,79 @@
+package Date_03__08_2024;
+
+/* Q13.Write a java program to find total number of notes in given amount. How to write a java program to print total number of notes in given amount. 
+Input from user:
+Enter the amount: 2528
+Expected output:
+500=5
+100=0
+50=0
+20=1
+10=0
+5=1
+2=1
+1=1 */
+
+import java.util.*;
+
+public class P13_count_total_number_of_notes_in_given_amount 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Amount");
+		int amt = sc.nextInt();
+		
+		int Nnote;
+		int Ramt;
+		
+		while(amt != 0)
+		{
+			Nnote = amt / 500;
+			Ramt = Nnote * 500;
+			amt = amt - Ramt;
+			System.out.println("500 -----> " + Nnote);
+			
+			Nnote = amt / 200;
+			Ramt = Nnote * 200;
+			amt = amt - Ramt;
+			System.out.println("200 -----> " + Nnote);
+			
+			Nnote = amt / 100;
+			Ramt = Nnote * 100;
+			amt = amt - Ramt;
+			System.out.println("100 -----> " + Nnote);
+			
+			Nnote = amt / 50;
+			Ramt = Nnote * 50;
+			amt = amt - Ramt;
+			System.out.println("50 -----> " + Nnote);
+			
+			Nnote = amt / 20;
+			Ramt = Nnote * 20;
+			amt = amt - Ramt;
+			System.out.println("20 -----> " + Nnote);
+			
+			Nnote = amt / 10;
+			Ramt = Nnote * 10;
+			amt = amt - Ramt;
+			System.out.println("10 ----->" + Nnote);
+			
+			Nnote = amt / 5;
+			Ramt = Nnote * 5;
+			amt = amt - Ramt;
+			System.out.println("5 ----->" + Nnote);
+			
+			Nnote = amt / 2;
+			Ramt = Nnote * 2;
+			amt = amt - Ramt;
+			System.out.println("2 -----> " + Nnote);
+			
+			Nnote = amt / 1;
+			Ramt = Nnote * 1;
+			amt = amt - Ramt;
+			System.out.println("1 -----> " + Nnote);
+		}
+	}
+
+}

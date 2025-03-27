@@ -1,0 +1,12 @@
+package Date_04__08_2024;
+
+import java.util.*;
+
+public class P3_Double_Rent 
+{
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

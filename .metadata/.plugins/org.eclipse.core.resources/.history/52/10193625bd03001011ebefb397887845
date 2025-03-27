@@ -1,0 +1,57 @@
+package Day_11_03_2025;
+
+/*
+ Q3.Stack Implementation - Implement a stack using Stack 
+  case 1: push()
+  case 2: pop()
+  case 3: peek() operations.
+  case 4: display stack value using last in first out 
+ */
+
+import java.util.*;
+
+public class Q3_Stack_Oprations 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		Stack <Integer> stack = new Stack<Integer>();
+		
+		do {
+			
+			System.out.println("========================================================");
+			System.out.println("Cases");
+			System.out.println("========================================================");
+			System.out.println("Case 1: Push() -- [Add Element]");
+			System.out.println("Case 2: Pop() -- [Remove Last Element]");
+			System.out.println("Case 3: Peek() -- [Display last Element]");
+			System.out.println("Case 4: Display stack value using last in first out");
+			System.out.println("Case 5: Exit");
+			
+			System.out.println("Enter the Choice");
+			int choice = sc.nextInt();
+			System.out.println("--------------------------------------------------------");
+			
+			switch(choice) 
+			{
+				case 1:
+					System.out.println("");
+					break;
+					
+				case 2:
+					break;
+					
+				case 3:
+					break;
+					
+				case 4:
+					break;
+					
+				case 5:
+					System.exit(0);
+			}
+			
+		}while(true);
+	}
+}

@@ -1,0 +1,16 @@
+package Day_05_02_2025;
+/*
+ * 3. Write a Java method to check if two given strings are anagrams of each other. (Two strings are anagrams if they contain the same characters with the same frequency but in a different order.)
+Example:
+Input: "listen", "silent"
+Output: true
+ */
+
+public class Q1_Strings_Are_Anagrams 
+{
+	public static void main(String[] args) 
+	{
+
+	}
+
+}

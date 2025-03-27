@@ -1,0 +1,21 @@
+package com.java;
+
+/* 
+Pattern
+ 
+A
+BAB
+CBABC
+DCBABCD
+EDCBABCDE
+
+End
+*/
+
+public class Pattern_Q41
+{
+	public static void main(String[] args) 
+	{			
+		
+	}
+}

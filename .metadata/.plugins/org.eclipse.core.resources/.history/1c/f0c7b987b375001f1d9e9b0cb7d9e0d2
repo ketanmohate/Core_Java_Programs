@@ -1,0 +1,35 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class PrintMatrix
+{
+	 int a[][]; 
+	 void acceptTwoDArray(int x[][]) 
+	 {  
+		 a=x;
+	 }
+	 
+	 void showMatrix()
+	 {
+		 
+	 }
+}
+
+public class Q13_Print_Matrix_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Row of Array");
+		int row=sc.nextInt();
+		
+		System.out.println("Enter the Column of Array");
+		int column=sc.nextInt();
+		
+		int arr[][] = new int[row][column];
+		
+	}
+
+}

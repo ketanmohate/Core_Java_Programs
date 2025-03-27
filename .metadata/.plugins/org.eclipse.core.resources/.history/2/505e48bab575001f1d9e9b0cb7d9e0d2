@@ -1,0 +1,32 @@
+package Assignment_04_09_2024.java;
+
+/*
+ 14).WAP to create the class name as MarixMultiplication with a following methods 
+ */
+
+import java.util.*;
+
+class MarixMultiplication
+{
+	int arr[][];
+	
+	void acceptTowDArray(int arr[][])
+	{
+		this.arr=arr;
+	}
+	
+	void showMarixMultiplication()
+	{
+		
+	}
+}
+
+public class Q14_Marix_Multiplication_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+	}
+
+}

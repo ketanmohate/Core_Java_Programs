@@ -1,0 +1,20 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Majority
+{
+	public Majority(int [])
+	{
+		
+	}
+}
+
+public class Q3_Majority_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

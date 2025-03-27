@@ -1,0 +1,31 @@
+package com.java;
+
+import java.util.*;
+
+public class VotingEligible {
+    public static void main(String[] args) {
+        int age;
+        String country;
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the age:");
+        age = sc.nextInt();
+        sc.nextLine(); // Consume the newline character after the integer input
+
+        System.out.println("Enter the country:");
+        country = sc.nextLine();
+
+        if (age > 18) {
+            if (country == "i" || country == "I") {
+                System.out.println("You are eligible for voting.");
+            } else {
+                System.out.println("You are not eligible for voting because you are not a citizen.");
+            }
+        } else {
+            System.out.println("You are not eligible for voting because you are underage.");
+        }
+
+        sc.close();
+    }
+}
+

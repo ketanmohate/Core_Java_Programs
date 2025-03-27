@@ -1,0 +1,37 @@
+package Assignment_19_09_2024;
+
+import java.util.*;
+
+class Area
+{
+	Area(int x)
+	{
+		
+	}
+	
+	Area(int x, int y)
+	{
+		
+	}
+	
+	Area(int x, float y)
+	{
+		
+	}
+
+}
+
+public class Q1_Area_Of_Circle_App 
+{
+	public static void main(String[] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Redius Of Circle");
+		int redius=sc.nextInt();
+		
+		System.out.println("Enter the Heigth of Reactangle");
+		int heigth=sc.nextInt();
+		
+	}
+}

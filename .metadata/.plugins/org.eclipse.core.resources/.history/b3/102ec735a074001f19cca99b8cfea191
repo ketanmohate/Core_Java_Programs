@@ -1,0 +1,38 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class ConvertToUpper
+{
+	char c[]; 
+	
+	void setCharArray(char ch[])
+	{
+		c=ch; 
+	}
+}
+
+public class Q6_Convert_To_Upper_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+	
+		System.out.println("Enter the size of String");
+		int size=sc.nextInt();
+		
+		char arrConvertToUpper[] = new char[size];
+		
+		System.out.println("Enter the String");
+		String string=sc.nextLine();
+		
+		for(int i=0;i<arrConvertToUpper.length;i++)
+		{
+			strin
+		}
+		
+		ConvertToUpper obj = new ConvertToUpper();
+		obj.setCharArray(arrConvertToUpper);
+	}
+
+}

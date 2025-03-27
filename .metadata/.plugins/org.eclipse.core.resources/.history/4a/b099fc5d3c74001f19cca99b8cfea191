@@ -1,0 +1,29 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Student 
+{ 
+	
+	
+	void setSubMarks(int s[]) 
+	{ 
+//		this.s=s[];
+	}
+	void calculatePer() 
+	{
+		
+	}
+	void checkGrades()
+	{
+		
+	}
+} 
+public class Q4_Student_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+	}
+
+}

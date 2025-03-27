@@ -1,0 +1,50 @@
+package Loopng_PDF;
+
+/* 18. Write a C program to find frequency of each digit in a given integer. */
+
+import java.util.*;
+
+public class Q18_Find_Frequency_Of_Each_Digit 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		long num = sc.nextInt();
+		
+		// main logic
+		long temp = num;
+		int count=0;
+		for(;temp!=0;)
+		{
+			temp = temp/10;
+			count++;
+		}
+	
+		temp = num;
+		long rem=0;
+		
+
+
+			
+			for(int i = 0 ; i <= 9 ; i++)
+			{
+				for(;temp!=0;)
+				{
+					long Digit=0;
+					rem = temp % 10;
+					
+					if(i==rem)
+					{
+						Digit++;
+					}
+					
+					System.out.println(i+ "---------->");
+					temp  = temp / 10;
+				}
+			}
+
+	}
+
+}

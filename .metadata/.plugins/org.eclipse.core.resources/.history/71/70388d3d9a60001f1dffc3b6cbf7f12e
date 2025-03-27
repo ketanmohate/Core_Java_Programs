@@ -1,0 +1,43 @@
+package Loopng_PDF;
+
+/* 30. Write a C program to check whether a number is Armstrong number or not.*/
+
+import java.util.*;
+
+public class Q30_Check_Number_Armstrong_Or_Not 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number:");
+		int num = sc.nextInt();
+		
+		// main logic
+		int temp = num;
+		
+		// count number of digit
+		System.out.println("Number of count:");
+		int count=0;
+		for(;temp!=0;)
+		{
+			temp = temp / 10;
+			count++;
+		}
+		System.out.println(count);
+		
+		//
+		temp=num;
+		int rem=0;
+		int sum=0;
+		for(;temp!=0;)
+		{
+			rem=temp%10;
+			sum = sum + (rem*count);
+			
+		}
+		
+		
+	}
+
+}

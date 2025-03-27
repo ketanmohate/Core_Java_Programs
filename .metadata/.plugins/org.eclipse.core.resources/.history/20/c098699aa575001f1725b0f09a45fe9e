@@ -1,0 +1,40 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Employee 
+{
+	int id ;
+	String name ;
+	int contact ;
+	int presentday ;
+	int perdaysal;
+	
+	public Employee(int id ,String name ,int contact ,int presentday, int perdaysal)
+	{
+		this.id=id;
+		this.name=name;
+		this.contact=contact;
+		this.presentday=presentday;
+		this.perdaysal=perdaysal;
+	}
+	
+	void CalSal()
+	{
+		
+	}
+	
+	void showDetails()
+	{
+		
+	}
+}
+
+public class Q5_Employee_Salary_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

@@ -1,0 +1,20 @@
+package Assignment_18_09_2024;
+
+import java.util.*;
+
+class Power
+{
+	public Power(int base , int index)
+	{
+		this.index=index;
+	}
+}
+
+public class Q2_Power_App 
+{
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

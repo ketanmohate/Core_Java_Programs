@@ -1,0 +1,71 @@
+package Assignment_21_08_2024.java;
+
+/*
+ Q3. WAP to create class name as CheckPrime with two function 
+void setValue(int x): this function can accept integer as parameter
+boolean checkPrime(): this function can check number is prime or not if number is prime return true otherwise return false.
+ */
+
+import java.util.*;
+
+class CheckPrime
+{
+	int no;
+	
+	void setValue(int x)
+	{
+		no = x;
+	}
+	
+//	boolean CheckPrime()
+//	{
+//		int count = 0;
+//		
+//		for(int i = 1 ; i <=no ; i++)
+//		{
+//			if(no % i == 0)
+//			{
+//				count++;
+//			}
+//		}
+//		
+//		return count == 2;	
+//	}
+	
+	boolean CheckPrime()
+	{
+		int count = 0;
+		
+		for(int i = 1 ; i <=no ; i++)
+		{
+			if(no % i == 0)
+			{
+				count++;
+			}
+		}
+		
+		return count == 2;	
+	}
+}
+
+public class Q3_Check_Prime_NO 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number");
+		int no = sc.nextInt();
+		
+		CheckPrime obj = new CheckPrime();
+		
+		
+		obj.setValue(no);
+		obj.CheckPrime();
+		
+		boolean result=(obj.CheckPrime());
+		System.out.println(result);
+
+	}
+
+}

@@ -1,0 +1,41 @@
+package Day_05_02_2025;
+
+/*
+ * 
+1. Write a Java method that takes a sentence as input and returns the sentence with the words reversed. 
+The order of words should be maintained, but each word should be reversed.
+Example:
+Input: "Java is fun"
+Output: "avaJ si nuf"
+ */
+
+import java.util.*;
+
+public class Q1_Words_Reversed 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the String");
+		String str = sc.nextLine();
+		
+		char[] ch = str.toCharArray();
+		
+		int n = ch.length;
+		
+//		for(int i=0 ; i<ch.length/2 ; i++)
+//		{
+//			char temp = ch[i];
+//			ch[i] = ch[n - i - 1];
+//			ch[n - i -1 ] = temp;
+//		}
+
+		
+
+		System.out.println("Reverse String");
+		System.out.println(new String(ch));
+		
+	}
+
+}

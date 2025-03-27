@@ -1,0 +1,13 @@
+package Loopng_PDF;
+
+/* 4. Write a C program to print all even numbers between 1 to 100. - using while loop */
+
+public class Q4_Print_All_Even_No 
+{
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}

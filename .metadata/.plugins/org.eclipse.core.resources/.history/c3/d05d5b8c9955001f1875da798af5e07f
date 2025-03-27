@@ -1,0 +1,21 @@
+package Date_04__08_2024;
+
+import java.util.*;
+
+public class P7_Biryani_classes 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the weeks");
+		int x = sc.nextInt();
+		
+		System.out.println("Enter the coins");
+		int y = sc.nextInt();
+		
+		System.out.println("Total amount of money that Chef will have to pay");
+		System.out.println(x*y);
+	}
+
+}

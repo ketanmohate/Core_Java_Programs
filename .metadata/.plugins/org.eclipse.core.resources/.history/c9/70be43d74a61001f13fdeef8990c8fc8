@@ -1,0 +1,10 @@
+package Loopng_PDF;
+
+public class Q36_Print_Fibonacci_Series {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

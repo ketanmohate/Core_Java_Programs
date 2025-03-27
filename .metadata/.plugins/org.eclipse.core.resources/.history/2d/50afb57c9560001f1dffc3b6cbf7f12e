@@ -1,0 +1,40 @@
+package Loopng_PDF;
+
+/* 28. Write a C program to find sum of all prime numbers between 1 to n.*/
+
+import java.util.*;
+
+public class Q28_Print_Sum_Of_All_Prime_Number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the value of n(Limit)");
+		int n = sc.nextInt();
+		
+		// main logic
+		
+		System.out.println("Print Sum Of Prime Number");
+		int sum=0;
+		
+		for(int i=1 ; i<=n ; i++)
+		{
+			int count = 0;
+			
+			for(int j=1 ; j<=i ; j++)
+			{
+				if(i%j==0)
+				{
+					count++;
+				}
+			}
+			if(count==2)
+			{
+				sum = sum + i;
+			}
+		}
+		
+	}
+
+}

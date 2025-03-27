@@ -1,0 +1,59 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class ConvertToUpper
+{
+	char c[]; 
+	
+	void setCharArray(char ch[])
+	{
+		c=ch; 
+	}
+	
+	void convertToUpperCase() 
+	{
+		for(int i=0;i<c.length;i++)
+		{
+			c[i]=(char) (c[i]-32);
+		}
+		System.out.println("Convertad String");
+		for(int i=0;i<c.length;i++)
+		{
+			System.out.print(c[i]);
+		}
+	}
+}
+
+public class Q6_Convert_To_Upper_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+	
+//		System.out.println("Enter the size of String");
+//		int size=sc.nextInt();
+//		sc.nextLine();
+
+		System.out.println("Enter the String");
+		String str=sc.nextLine();
+		
+		int count=0;
+		for(int i=0;i<str.lastIndexOf(i);i++)
+		{
+			count++;
+		}
+		
+		char arrConvertToUpper[] = new char[count];
+		
+		for(int i=0;i<arrConvertToUpper.length;i++)
+		{
+			arrConvertToUpper[i]=str.charAt(i);
+		}
+		
+		ConvertToUpper obj = new ConvertToUpper();
+		obj.setCharArray(arrConvertToUpper);
+		obj.convertToUpperCase();
+	}
+
+}

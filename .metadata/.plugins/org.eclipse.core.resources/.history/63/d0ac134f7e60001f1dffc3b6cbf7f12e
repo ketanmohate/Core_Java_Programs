@@ -1,0 +1,27 @@
+package Loopng_PDF;
+
+/* 23. Write a C program to calculate factorial of a number. */
+
+import java.util.*;
+
+public class Q23_Calculate_Factorial_Of_A_Number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the Number");
+		int num = sc.nextInt();
+		
+		// main logic
+		System.out.println("Factorial of Given Number");
+		int fact=1;
+		for(int i = 1 ; i <= 5 ;i++)
+		{
+			fact = fact * i;
+		}
+		System.out.println(fact);
+		
+	}
+
+}

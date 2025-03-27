@@ -1,0 +1,12 @@
+package Loopng_PDF;
+
+/* 35. Write a C program to print all Strong numbers between 1 to n.*/
+
+public class Q35_Print_All_Strong_Numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

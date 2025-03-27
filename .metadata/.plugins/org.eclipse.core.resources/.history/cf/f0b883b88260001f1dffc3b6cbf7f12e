@@ -1,0 +1,34 @@
+package Loopng_PDF;
+
+/* 24. Write a C program to find HCF(Greatest common divisor) (GCD-Greatest common divisor) of two numbers.*/
+
+import java.util.*;
+
+public class Q24_Find_HCF_Or_GCD_Of_Two_Numbers 
+{
+	public static void main(String args[])
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter the first Number:");
+		int num1 = sc.nextInt();
+		
+		System.out.println("Enter the Secound Number:");
+		int num2 = sc.nextInt();
+		
+		// main logic
+		int min;
+		if(num1<num2)
+		{
+			
+		}
+		
+		for(int i = 0 ; i <= num1 ; i++)
+		{
+			if(num%i == 0)
+			{
+				
+			}
+		}
+	}
+}

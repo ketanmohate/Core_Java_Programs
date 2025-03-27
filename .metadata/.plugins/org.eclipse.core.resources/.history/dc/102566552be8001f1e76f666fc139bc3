@@ -1,0 +1,11 @@
+package Day_05_02_2025;
+
+public class Q2_First_Non_Repeating_Character 
+{
+	public static void main(String[] args) 
+	{
+		Sanner sc = new Scanner(System.in);
+		
+	}
+
+}

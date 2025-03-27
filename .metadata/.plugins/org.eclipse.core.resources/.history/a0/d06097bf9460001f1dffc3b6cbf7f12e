@@ -1,0 +1,17 @@
+package Loopng_PDF;
+
+/* 28. Write a C program to find sum of all prime numbers between 1 to n.*/
+
+import java.util.*;
+
+public class Q27_Print_Sum_Of_All_Prime_Number 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+	}
+
+}

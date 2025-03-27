@@ -1,0 +1,11 @@
+package Loopng_PDF;
+
+public class Q10_Print_Count_Number_Of_Digit_In_Number 
+{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

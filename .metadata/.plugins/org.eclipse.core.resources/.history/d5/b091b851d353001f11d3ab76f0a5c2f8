@@ -1,0 +1,10 @@
+package Date_02__08_2024;
+
+public class P6_year_is_leap_year_or_not {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

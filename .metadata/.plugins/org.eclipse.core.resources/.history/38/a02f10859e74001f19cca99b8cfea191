@@ -1,0 +1,24 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class ConvertToUpper
+{
+	char c[]; 
+	
+	void setCharArray(char ch[])
+	{
+		
+	}
+}
+
+public class Q6_Convert_To_Upper_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		int arrConvertToUpper[] = new int[5];
+	}
+
+}

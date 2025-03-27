@@ -1,0 +1,70 @@
+package Assignment_04_09_2024.java;
+
+import java.util.*;
+
+class Product
+{
+	private int id; 
+	private String name; 
+	private int qty; 
+	private int rate;
+	
+	public void setId(int id)
+	{
+		this.id=id;
+	}
+	public int getId()
+	{
+		return id;
+	}
+	
+	public void setName(String name)
+	{
+		this.name=name;
+	}
+	public String getName()
+	{
+		return name;
+	}
+	
+	public void setQTY(int qty)
+	{
+		this.qty=qty;
+	}
+	public int getQTY()
+	{
+		return qty;
+	}
+	
+	public void setRate(int rate)
+	{
+		this.rate=rate;
+	}
+	public int getRate()
+	{
+		return rate;
+	}
+}
+
+class CalculateBill
+{
+	void callBill()
+	{
+		
+	}
+}
+public class Q11_Billing_App 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Enter No of the Product");
+		int noProduct=sc.nextInt();
+		System.out.println("-------------------------------------------------------");
+		
+		Product arrProduct[] = new Product[noProduct];
+		
+	}
+
+}

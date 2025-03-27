@@ -1,0 +1,68 @@
+package Day_11_03_2025;
+
+/*
+ Q2. LinkedList Implementation
+Create a LinkedList of strings, 
+ case 1: add some element
+ case 2: print the list
+ case 3: remove elements from the front and rear.
+ */
+
+import java.util.*;
+
+public class Q2_LinkedList_Oprations 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		
+		LinkedList <Integer> linkedList = new LinkedList<Integer>(); 
+		
+		do {
+			System.out.println("========================================================");
+			System.out.println("Cases");
+			System.out.println("========================================================");
+			System.out.println("Case 1: Add Element");
+			System.out.println("Case 2: Print the List");
+			System.out.println("Case 3: Remove an element at a specific index");
+			System.out.println("Case 4: Exit");
+			
+			System.out.println("Enter the Choice");
+			int choice = sc.nextInt();
+			System.out.println("--------------------------------------------------------");
+			
+			switch(choice) 
+			{	
+				case 1:
+					System.out.println("Enter the how many element add");
+					int n = sc.nextInt();
+					
+					System.out.println("Enter the Element");
+					for(int i=0 ; i<n ; i++)
+					{
+						
+						list.add(sc.nextInt());
+					}
+					break;
+					
+				case 2:
+					System.out.println("Print List" + list);
+					break;
+					
+				case 3:
+					System.out.println("Enter the index");
+					int index = sc.nextInt();
+					list.remove(index);
+					break;
+					
+				case 4:
+					System.exit(0);
+					
+				default :
+					System.out.println("Invalid Input");
+			}
+			
+			
+		}while(true);
+	}
+}

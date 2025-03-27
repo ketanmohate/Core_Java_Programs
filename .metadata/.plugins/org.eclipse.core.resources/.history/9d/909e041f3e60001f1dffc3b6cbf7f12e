@@ -1,0 +1,16 @@
+package Loopng_PDF;
+
+/* 17. Write a C program to check whether a number is palindrome or not.  */
+
+import java.util.*;
+
+public class Q17_Check_Palindrome_Or_Not 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc = new (System.in);
+		
+		
+	}
+
+}
