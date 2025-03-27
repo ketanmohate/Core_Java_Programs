@@ -388,7 +388,6 @@
         </children>
         <children xsi:type="basic:PartStack" xmi:id="_C-jvgfhNEe-WqPvIg7reuQ" elementId="PartStack@67025329" containerData="5000" selectedElement="_YgGDkAiOEfCFV6BjIN2lMw">
           <tags>EditorStack</tags>
-          <tags>noFocus</tags>
           <children xsi:type="advanced:Placeholder" xmi:id="_a8mXBuw1Ee-r37r9EwdHIA" elementId="org.eclipse.ui.console.ConsoleView" ref="_a8mXM-w1Ee-r37r9EwdHIA" closeable="true">
             <tags>View</tags>
             <tags>categoryTag:General</tags>
@@ -406,7 +405,7 @@
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
           </children>
           <children xsi:type="basic:Part" xmi:id="_YgGDkAiOEfCFV6BjIN2lMw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Q5_Second_Largest_Element.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.png" closeable="true">
-            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Q5_Second_Largest_Element.java&quot; partName=&quot;Q5_Second_Largest_Element.java&quot; title=&quot;Q5_Second_Largest_Element.java&quot; tooltip=&quot;Revision_Plans/Revision_Plan_Third/Day_19_02_2025/Q5_Second_Largest_Element.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Revision_Plans/Revision_Plan_Third/Day_19_02_2025/Q5_Second_Largest_Element.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;973&quot; selectionTopPixel=&quot;487&quot;/>&#xD;&#xA;&lt;/editor>"/>
+            <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;Q5_Second_Largest_Element.java&quot; partName=&quot;Q5_Second_Largest_Element.java&quot; title=&quot;Q5_Second_Largest_Element.java&quot; tooltip=&quot;Revision_Plans/Revision_Plan_Third/Day_19_02_2025/Q5_Second_Largest_Element.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Revision_Plans/Revision_Plan_Third/Day_19_02_2025/Q5_Second_Largest_Element.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;819&quot; selectionTopPixel=&quot;201&quot;/>&#xD;&#xA;&lt;/editor>"/>
             <tags>Editor</tags>
             <tags>removeOnHide</tags>
             <tags>org.eclipse.jdt.ui.CompilationUnitEditor</tags>
@@ -675,7 +674,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_a8m95ew1Ee-r37r9EwdHIA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4tU4sAsCEfCbW_yeZBA5fA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_a8qChuw1Ee-r37r9EwdHIA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gSB8kAsEEfCj-N0g0S_FPA" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_a8qChuw1Ee-r37r9EwdHIA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_a8m98uw1Ee-r37r9EwdHIA" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -683,8 +682,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_a8m99Ow1Ee-r37r9EwdHIA" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4tVfxQsCEfCbW_yeZBA5fA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_a8pbU-w1Ee-r37r9EwdHIA"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4tWG0AsCEfCbW_yeZBA5fA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_a8qBYew1Ee-r37r9EwdHIA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gSCjowsEEfCj-N0g0S_FPA" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_a8pbU-w1Ee-r37r9EwdHIA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gSDKsAsEEfCj-N0g0S_FPA" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_a8qBYew1Ee-r37r9EwdHIA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_a8m9-Ow1Ee-r37r9EwdHIA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -708,7 +707,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_a8m-Oew1Ee-r37r9EwdHIA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_4tXU8AsCEfCbW_yeZBA5fA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_a8qCQew1Ee-r37r9EwdHIA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_gSDxwgsEEfCj-N0g0S_FPA" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_a8qCQew1Ee-r37r9EwdHIA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_a8m-Rew1Ee-r37r9EwdHIA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
