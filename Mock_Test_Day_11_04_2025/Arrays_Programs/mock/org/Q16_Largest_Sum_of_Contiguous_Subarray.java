@@ -23,36 +23,26 @@ Output: 6
 public class Q16_Largest_Sum_of_Contiguous_Subarray {
 
 	public static void main(String[] args) {
+		int[] nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
 
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Enter the size");
-		int size = sc.nextInt();
-		
-		int [] arr = new int[size];
-		
-		System.out.println("Enter the value");
-		for(int i=0 ; i<arr.length; i++)
-		{
-			arr[i] = sc.nextInt();
-		}
-		
-		int sum = 0;
-		int maxSum =0;
-		
-		for(int i=0 ; i<arr.length ; i++)
-		{
-			sum = arr[i];
-			for(int j=i ; j<arr.length ; j++)
-			{
-				sum = sum + arr[j];
-			}
-			if(maxSum <sum)
-			{
-				maxSum = sum;
-			}
-		}
-		System.out.println(maxSum);
-	}
+        int maxSoFar = nums[0];
+        int currentMax = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            // currentMax = max(nums[i], currentMax + nums[i]) without using Math.max
+            if (currentMax + nums[i] > nums[i]) {
+                currentMax = currentMax + nums[i];
+            } else {
+                currentMax = nums[i];
+            }
+
+            // maxSoFar = max(maxSoFar, currentMax)
+            if (currentMax > maxSoFar) {
+                maxSoFar = currentMax;
+            }
+        }
+
+        System.out.println("Maximum subarray sum is: " + maxSoFar);
+    }
 
 }

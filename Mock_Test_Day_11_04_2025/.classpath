@@ -9,5 +9,6 @@
 	<classpathentry kind="src" path="Besis_Programs"/>
 	<classpathentry kind="src" path="Arrays_Programs"/>
 	<classpathentry kind="src" path="Intermediate_Programs"/>
+	<classpathentry kind="src" path="OOP_Programs"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
