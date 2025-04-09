@@ -28,7 +28,6 @@ public class Q5_Finally_Block {
 		int num2 = sc.nextInt();
 		
 		System.out.println(calDiv(num1, num2));
-
 	}
 
 }
