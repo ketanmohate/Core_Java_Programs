@@ -7,7 +7,7 @@ class Employee implements Serializable
 {
 	private int id;
 	private String name;
-	private double salary;
+	transient private double salary;
 	public int getId() {
 		return id;
 	}
@@ -35,12 +35,12 @@ public class Q1_SerializeApp
 		Scanner sc = new Scanner(System.in);
 		
 		
-		FileOutputStream fout = new FileOutputStream("C:\\Users\\ketan\\OneDrive\\Desktop\\Java_All_Programs\\File_Handling\\Written_Files\\serialize.txt");
+		FileOutputStream fout = new FileOutputStream("C:\\Users\\ketan\\OneDrive\\Desktop\\Java_All_Programs\\File_Handling\\Written_Files\\serialize.txt",true);
 		
 		ObjectOutputStream oout = new ObjectOutputStream(fout);
 		
 		
-		Employee[] employee = new Employee[5];
+		Employee[] employee = new Employee[2];
 		
 		for (int i = 0; i < employee.length; i++) 
 		{
