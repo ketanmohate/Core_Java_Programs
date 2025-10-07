@@ -72,17 +72,17 @@
 		<item key="pageIndex" value="2"/>
 	</section>
 	<section name="NewClassCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="11"/>
-		<item key="DIALOG_Y_ORIGIN" value="11"/>
-		<item key="DIALOG_WIDTH" value="1920"/>
-		<item key="DIALOG_HEIGHT" value="891"/>
+		<item key="DIALOG_X_ORIGIN" value="319"/>
+		<item key="DIALOG_Y_ORIGIN" value="7"/>
+		<item key="DIALOG_WIDTH" value="968"/>
+		<item key="DIALOG_HEIGHT" value="672"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="JavaProjectWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="0"/>
-		<item key="DIALOG_Y_ORIGIN" value="0"/>
+		<item key="DIALOG_X_ORIGIN" value="103"/>
+		<item key="DIALOG_Y_ORIGIN" value="7"/>
 		<item key="DIALOG_WIDTH" value="1184"/>
-		<item key="DIALOG_HEIGHT" value="1008"/>
+		<item key="DIALOG_HEIGHT" value="672"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewSourceFolderCreationWizard.dialogBounds">
@@ -93,9 +93,9 @@
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 	<section name="NewPackageCreationWizard.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="11"/>
+		<item key="DIALOG_X_ORIGIN" value="7"/>
 		<item key="DIALOG_Y_ORIGIN" value="11"/>
-		<item key="DIALOG_WIDTH" value="1920"/>
+		<item key="DIALOG_WIDTH" value="1280"/>
 		<item key="DIALOG_HEIGHT" value="563"/>
 		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>

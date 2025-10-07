@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.wst.xml.ui.internal.wizards.NewXMLWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
+			<item value="org.eclipse.wst.XMLCategory"/>
 		</list>
 		<section name="NewWizard.dialogBounds">
-			<item key="DIALOG_X_ORIGIN" value="11"/>
-			<item key="DIALOG_Y_ORIGIN" value="11"/>
-			<item key="DIALOG_WIDTH" value="1920"/>
-			<item key="DIALOG_HEIGHT" value="563"/>
+			<item key="DIALOG_X_ORIGIN" value="412"/>
+			<item key="DIALOG_Y_ORIGIN" value="116"/>
+			<item key="DIALOG_WIDTH" value="875"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 		</section>
 	</section>
@@ -25,27 +26,42 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="search.in.help"/>
+			<item value="org.eclipse.ui.editors.preferencePages.Spelling"/>
 			<item value="org.eclipse.jdt.ui.PackageExplorer"/>
 			<item value="org.eclipse.tm4e.ui.preferences.ThemePreferencePage"/>
 		</list>
 		<list key="orderedProviders">
+			<item value="search.help"/>
+			<item value="org.eclipse.ui.preferences"/>
 			<item value="org.eclipse.e4.ui.parts"/>
 			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
 			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="eclips mar"/>
+			<item value="spel"/>
 			<item value="p"/>
 			<item value="theme"/>
 		</list>
 	</section>
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="59"/>
-		<item key="DIALOG_Y_ORIGIN" value="8"/>
-		<item key="DIALOG_WIDTH" value="1265"/>
-		<item key="DIALOG_HEIGHT" value="718"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		<item key="DIALOG_Y_ORIGIN" value="11"/>
+		<item key="DIALOG_WIDTH" value="1512"/>
+		<item key="DIALOG_HEIGHT" value="985"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-257"/>
+		<item key="DIALOG_Y_ORIGIN" value="-153"/>
+		<item key="DIALOG_WIDTH" value="1160"/>
+		<item key="DIALOG_HEIGHT" value="1008"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

@@ -29,6 +29,7 @@ public class Q17_Find_Missing_Number_in_Array {
 			arr[i] = sc.nextInt();
 		}
 		
+//		main logic
 		for(int i=0 ; i<arr.length-1 ; i++)
 		{
 			for(int j=arr[i]+1 ; j<arr[i+1] ; j++)

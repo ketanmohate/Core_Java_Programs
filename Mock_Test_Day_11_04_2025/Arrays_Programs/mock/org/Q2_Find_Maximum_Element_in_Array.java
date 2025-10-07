@@ -32,7 +32,7 @@ public class Q2_Find_Maximum_Element_in_Array {
 		
 		for(int i=0 ; i<arr.length ; i++)
 		{
-			if(max < arr[i])
+			if(max > arr[i])
 			{
 				max = arr[i];
 			}
